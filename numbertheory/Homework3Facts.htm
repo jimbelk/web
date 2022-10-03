@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 3</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 3</h1>
+
+<h2>Facts About \(n_p\)</h2>
+
+<ol>
+
+<li>If \(a\) and \(b\) are positive integers, then \(a = b\) if and only if \(n_p(a) = n_p(b)\) for all primes \(p\).  (This is essentially the fundamental theorem of arithmetic.)
+</li>
+
+<li>\(n_p(ab) = n_p(a) + n_p(b)\) for all primes \(p\) and all positive integers \(a\) and \(b\).  More generally,
+\[
+n_p(a_1\cdots a_n) \,=\, n_p(a_1) + \cdots + n_p(a_n)
+\]
+for all primes \(p\) and all positive integers \(a_1,\ldots,a_n\).
+</li>
+
+<li>If \(a\) and \(b\) are positive integers, then \(a\mid b\) if and only if \(n_p(a) \leq n_p(b)\) for all primes \(p\).  In this case,
+\[
+n_p\biggl(\frac{b}{a}\biggr) \,=\, n_p(b) - n_p(a)
+\]
+for all primes \(p\).
+</li>
+
+<li>\(n_p\bigl(\mathrm{gcd}(a,b)\bigr) = \mathrm{min}\bigl(n_p(a),n_p(b)\bigr)\) for all primes \(p\) and all positive integers \(a\) and \(b\).  More generally,
+\[
+n_p\bigl(\mathrm{gcd}(a_1\cdots a_n)\bigr) \,=\, \mathrm{min}\bigl(n_p(a_1),\ldots,n_p(a_n)\bigr)
+\]
+for all primes \(p\) and all positive integers \(a_1,\ldots,a_n\).
+</li>
+
+<li>\(n_p\bigl(\mathrm{lcm}(a,b)\bigr) = \mathrm{max}\bigl(n_p(a),n_p(b)\bigr)\) for all primes \(p\) and all positive integers \(a\) and \(b\).  More generally,
+\[
+n_p\bigl(\mathrm{lcm}(a_1\cdots a_n)\bigr) \,=\, \mathrm{max}\bigl(n_p(a_1),\ldots,n_p(a_n)\bigr)
+\]
+for all primes \(p\) and all positive integers \(a_1,\ldots,a_n\).
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

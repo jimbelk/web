@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 10</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 10</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, December 3</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>In the Lotka-Volterra predator-prey model, the population of prey tends to decrease when there are more predators, while the population of predators tends to increase when there are more prey.  However, another common situation in ecology is that of <b><i>competition</i></b> between two species, where a greater population of either species has an adverse effect on the population of the other.
+
+<ol class="parts">
+<li class="part">Write a simple system of differential equations for the populations \(x\) and \(y\) of two species in competition.  You should assume that either population would experience exponential growth in the absence of the other species, but that interactions between the two species are harmful to both.  Your model should involve four constants \(A\), \(B\), \(C\), and \(D\).
+</li>
+<li class="part">Find the nonzero equilibrium point \((x^*,y^*)\) for your model in terms of \(A\), \(B\), \(C\), and \(D\).</li>
+<li class="part">Compute the eigenvalues of the Jacobian for the equilibrium point you found in part&nbsp;(b) in terms of \(A\), \(B\), \(C\), and \(D\).  What type of equilibrium is this?
+</li>
+<li class="part">Use <code>VectorPlot</code> to plot the vector field for your system in part&nbsp;(a) in the case where \(A=B=C=D=1\).  Your plot should include the range \(0\leq x \leq 2\) and \(0 \leq y \leq 2\), and should use the option <code>VectorScale -> {Automatic, Automatic, None}</code> to make the arrows visible.
+</li>
+<li class="part">Based on your plot from part (d), what tends to happen to the population of each species over time in the case where \(A=B=C=D=1\)?  Does it depend on the initial populations of the species?  Explain.</li>
+</ol>
+
+<li>In a diatomic molecule, the two atoms are bound together by a long-range attractive force offset by a short-range repulsive force.  One simple model for such a bond (known as the <b><i>Morse potential model</i></b>) is given by
+\[
+\frac{d^2 r}{dt^2} \,=\, ae^{-2kr} - be^{-kr},
+\]
+where \(r\) is the distance between the two nuclei, \(k\) is a constant with units of inverse length, and \(a\) and \(b\) are constants satisfying \(a>b\).
+<ol class="parts">
+<li class="part">Which term in the above equation represents the repulsive force?  Which term represents the attractive force?  In what sense does the attractive force have a longer range than the repulsive force?
+</li>
+<li class="part">Find the equilibrium value \(r^*\) for the distance between the nuclei.
+</li>
+<li class="part">Let \(u=r -r^*\).  Show that \(u\) satisfies the differential equation
+\[
+\frac{d^2 u}{dt^2} \,=\, \frac{b^2}{a}\bigl(e^{-2ku}-e^{-ku}\bigr).
+\]
+</li>
+<li class="part">Find the linearization of the equation in part (c) in the case where \(u\approx 0\), and use your answer to determine the period of small oscillations of \(r\) around the equilibrium.
+</li>
+<li class="part">In the case where \(a=2\) and \(b=k=1\), use <code>NDSolve</code> and <code>Plot</code> to plot the solution with initial conditions \(r(0) = 0.7\) and \(r'(0)=0\) for \(0\leq t \leq 30\).
+</li>
+<li class="part">Does the period of the solution in part (e) agree with your answer to part (d)?  What is the amplitude of the oscillations?  Do the oscillations appear to be sinusoidal?
+</li>
+<li class="part">Repeat parts (e) and (f) for the solution with initial conditions \(r(0) = 2\) and \(r'(0)=0\).
+</li>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

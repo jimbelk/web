@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 9</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 9</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, November 20</p>
+
+
+
+<ol>
+<li> Consider the following iterated function system on the square \([0,1]\times [0,1]\).</p>
+<p style="text-align: center">
+<img src="Homework9Pict1.png" style="vertical-align: middle; width: 70px; max-width: 30%" /> \(\quad\longrightarrow\quad\) <img src="Homework9Pict2.png" style="vertical-align: middle; width: 70px; max-width: 30%" />
+</p>
+<p>Find formulas for the four maps of this system, and use Mathematica to plot 10,000 points in a typical orbit.  What is the attractor for this system?</p>
+
+</li>
+<li> The iterated function system above can be used to construct the <b>Hilbert curve</b>.  The first few stages of the construction of this curve are shown below.
+<img src="Homework9Pict3.png" style="width: 100%" />
+Use <i>Mathematica</i> to plot stages 5, 6, 7, and 8 of the Hilbert curve.  You should use a <code>Line</code> to plot the curve, and a second <code>Line</code> to draw the boundary square, combining them with the <code>Graphics</code> command.
+
+</li>
+<li> For each \(n\), let \(\gamma_n\colon[0,1]\to[0,1]\times[0,1]\) be a constant-speed parametrization of the \(n\)th stage of the Hilbert curve, starting in the lower left.
+    <ol class="parts">
+    <li class="part"> Find a piecewise formula for \(\gamma_1(t)\).
+    </li>
+<li class="part"> Find formulas for \(\gamma_n(0)\) and \(\gamma_n(1)\) in terms of \(n\).
+    </li>
+</ol>
+
+</li>
+<li> Let \(\gamma\colon[0,1]\to[0,1]\times[0,1]\) be the function defined by
+\[
+\gamma(t) \;=\; \lim_{n\to\infty} \gamma_n(t).
+\]
+Then \(\gamma\) is a continuous fractal curve whose image is the entire unit square \([0,1]\times[0,1]\).
+<ol class="parts">
+<li class="part"> What are \(\gamma(0)\) and \(\gamma(1)\)?  Explain.
+</li>
+<li class="part"> Use the pictures of the stages to determine the locations of \(\gamma(1/3)\), \(\gamma(2/3)\), \(\gamma(1/4)\), \(\gamma(1/2)\), and \(\gamma(3/4)\).
+</li>
+<li class="part"> Use Mathematica to determine the location of \(\gamma(1/5)\).  Express the coordinates of your answer as fractions.
+</li>
+</ol>
+
+</li>
+<li> Use Mathematica to find the value of \(t\) for which \(\gamma(t) = (1/3,1/3)\).  Express your answer as a fraction.
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

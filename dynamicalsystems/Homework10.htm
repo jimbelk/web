@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 10</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 10</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, December 4</p>
+
+
+
+<p>Consider the fractal subset of \([0,1] \times [0,1]\) defined by the following iterated function system:</p>
+<p style="text-align: center">
+<img src="Homework10Picture1.png" style="vertical-align: middle; padding-right: 0.5in"/>
+\(\begin{align*}
+F_1(x,y) \;&=\; \left(\frac12 x,\,\frac12 y\right) \\[6pt]
+F_2(x,y) \;&=\; \left(\frac12 x + \frac12,\, \frac12 y\right) \\[6pt]
+F_3(x,y) \;&=\; \left(\frac12 x,\, \frac12 y + \frac12 \right) \\[6pt]
+F_4(x,y) \;&=\; \left(\frac14 x + \frac14,\, \frac14 y + \frac14\right)
+\end{align*}
+\)
+</p>
+<p>Our goal is to determine the box-counting dimension of this fractal.</p>
+
+<ol>
+<li> Let \(B(n)\) denote the number of boxes in an \(n\times n\) grid that contain a point of this fractal.  For example, \(B(2) = 3\) and \(B(4) = 10\).  What is \(B(8)\)?
+
+
+</li>
+<li> Write a <i>Mathematica</i> notebook to determine the value of \(B(n)\) for \(n = \) \(16\), \(32\), \(64\), and \(128\).  I suggest the following procedure:
+    <ul>
+    <li> First, compute at least 200,000 random points on the fractal.
+    </li>
+<li> Next, use the <code>BinCounts</code> command to tally the number of points in each box.
+    </li>
+<li> Finally, count the number of boxes containing at least one point from the fractal.
+    </li>
+</ul>
+    Make sure to test that your code works for the data points mentioned in problem&nbsp;1.
+
+
+</li>
+<li> The quantity \(B(n)\) should obey a power law of the form
+\[
+B(n) \;\approx\; Cn^d,
+\]
+or equivalently
+\[
+\log B(n) \;\approx\; (\log C) + d(\log n),
+\]
+where \(d\) is the box-counting dimension.
+<ol class="parts">
+<li class="part"> Use the <i>Mathematica</i> to make a log-log plot of the data you have collected.
+</li>
+<li class="part"> Use the <code>LinearModelFit</code> command to fit the log-log data points to a linear function.  Use only the four data points you found in problem&nbsp;2.
+</li>
+<li class="part"> Make a plot showing the data points together with the linear regression line.
+</li>
+<li class="part"> What is the (approximate) box-counting dimension of this fractal?
+</li>
+</ol>
+
+</li>
+</ol>
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 5</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 5</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, October 1</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>As discussed in class, we can find an approximate solution to an initial value problem of the form
+\[
+\frac{dy}{dt} \,=\, f(t,y),\qquad y(t_0) = y_0,
+\]
+using an iterative procedure known as <b><i>Euler's method</i></b>.  First we choose a sequence \(\{t_n\}\) of times (typically equally spaced in steps of \(\Delta t\)), and then we compute a sequence \(\{y_n\}\) recursively by the formula
+\[
+y_{n+1} \,=\, y_n \,+\, f(t_n,y_n)\,(t_{n+1}-t_n).
+\]
+The result is that \(y_n\) is a fairly good estimate for \(y(t_n)\).  The error in this estimate comes from the fact that \(f(t_n,y_n)\) is not exactly the same as the average value of \(y'(t)\) between \(t=t_n\) and \(t=t_{n+1}\).
+<ol class="parts">
+<li class="part">Consider the intial value problem
+\[
+\frac{dy}{dt} \,=\, (t-1)^2 - y^2,\qquad y(0) = 1.
+\]
+Use Euler's method with \(N=10\) steps to estimate the value of \(y(1)\).  Repeat this for \(N=20\), \(N=50\), \(N=100\), and \(N=200\) steps.
+</li>
+<li class="part">Use <code>NDSolve</code> in Mathematica to obtain an accurate value of \(y(1)\).  Use this to compute the error \(\varepsilon\) of each of the estimates you found in part (a).
+<li class="part">Use <code>ListPlot</code> in Mathematica to make a log-log plot of the error \(\varepsilon\) vs.&nbsp;the number of steps \(N\).
+<li class="part">The error in Euler's method for this initial value problem satisfies an approximate power law of the form
+\[
+\varepsilon \,\approx\, a\, N^p.
+\]
+Use the <code>LinearModelFit</code> command to compute a best-fit line for your plot in part (c) and estimate the values of \(a\) and \(p\).
+</li>
+<li class="part">Based on your answer to part (d), how many steps would we have to use for the Euler's method estimate to be accurate to eight decimal places?
+</li>
+</ol>
+
+<li>There is a simple improvement to Euler's method known as the <b><i>modified Euler method</i></b> or <b><i>Heun's method</i></b>.  Instead of estimating \(y_{n+1}\) using Euler's formula, we use the following procedure:
+<ol style="margin-top: 0; margin-left: 40px;">
+<li style="margin-top: 0; margin-bottom: 0;">First we use Euler's formula to obtain an initial estimate for \(y_{n+1}\):
+\[
+y_{n+1}^{\text{init}} \,=\, y_n \,+\, f(t_n,y_n)\,(t_{n+1}-t_n).
+\]</li>
+<li style="margin-top: 0; margin-bottom: 0;">Next we use the value of \(y_{n+1}^{\text{init}}\) to obtain a more accurate estimate for the average slope between \(t=t_n\) and \(t=t_{n+1}\):
+\[
+m_n \,=\, \frac{f(t_n,y_n) + f\bigl(t_{n+1},y_{n+1}^{\text{init}}\bigr)}{2}.
+\]
+</li>
+<li style="margin-top: 0; margin-bottom: 0;">Finally, we use the computed slope \(m_n\) to obtain a more accurate value of \(y_{n+1}\):
+\[
+y_{n+1} \,=\, y_n + m_n(t_{n+1}-t_n)
+\]
+</li>
+</ol>
+This procedure is used at each step to obtain the sequence \(\{y_n\}\).
+<ol class="parts">
+<li class="part">Consider again the initial value problem
+\[
+\frac{dy}{dt} \,=\, (t-1)^2 - y^2,\qquad y(0) = 1.
+\]
+Use the modified Euler method to estimate the value of \(y(1)\) with \(N=10\), \(N=20\), \(N=50\), and \(N=100\) steps.
+</li>
+<li class="part">The error \(\varepsilon\) in the modified Euler method satisfies an approximate power law of the form
+\[
+\varepsilon \,\approx\, a\,N^p.
+\]
+Use the procedure from parts (c) and (d) in question 1 to estimate the values of \(a\) and \(p\).
+</li>
+<li class="part">Based on your answer to part (b), how many steps would we have to use for the modified Euler method estimate to be accurate to eight decimal places?
+</li>
+</ol>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

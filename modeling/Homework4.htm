@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 4</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 4</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, September 24</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>Show that, in the West-Brown-Enquist model of blood circulation, the radius of the aorta should be proportional to&nbsp;\(M^{3/8}\), where \(M\) is the total mass of the animal.
+</li>
+
+<li>Let \(y(x)\) be the solution to the following initial-value problem.
+\[
+y' \,=\, 20y^2(1-y)^2,\qquad y(0) = 0.15.
+\]
+<ol class="parts">
+<li class="part">Let \(a_n = y(0.1n)\). Write an approximate difference equation satisfied by the sequence \(\{a_n\}\). (Your answer should be an approximate formula for \(a_n\) in terms of \(a_{n-1}\).)</li>
+<li class="part">Use Mathematica to implement your difference equation from part (a).  Make a <code>Table</code> of values of \(a_n\) for \(n=0,1,\ldots,10\).</li>
+<li class="part">Make a <code>ListPlot</code> of the list you generated with the <code>Table</code> in part&nbsp;(b).</li>
+<li class="part">Repeat steps (a), (b), and (c) for the sequence \(b_n = y(0.01n)\) with \(n=0,1,\ldots,100\) and the sequence \(c_n = y(0.001n)\) for \(n=0,1,\ldots,1000\).</li>
+<li class="part">Use Mathematica's <code>NDSolve</code> command to obtain an approximate solution to the given initial-value problem.  Use <code>Plot</code> to draw a graph of this solution.</li>
+<li class="part">What were the estimated values of \(y(1)\) according to your approximate sequences \(\{a_n\}\), \(\{b_n\}\), and \(\{c_n\}\)?  How do these compare with the value of \(y(1)\) computed by <code>NDSolve</code>?</li>
+</ol>
+</li>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

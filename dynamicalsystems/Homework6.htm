@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 6</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 6</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, October 30</p>
+
+
+
+<p>Let \(f\colon[0,8]\to[0,8]\) be the following piecewise-linear function.</p>
+<p style="text-align: center">
+<img src="Homework6Graph.png" style="vertical-align: middle; padding-right: 0.5in"/>
+\(\displaystyle f(x)\;=\;\begin{cases}
+2x & \text{if }0 \leq x < 1, \\[6pt]
+4x - 2 & \text{if }1 \leq x < 2, \\[6pt]
+x+4 & \text{if }2 \leq x < 4, \\[6pt]
+12 - x & \text{if }4 \leq x < 6, \\[6pt]
+30-4x & \text{if }6 \leq x < 7, \\[6pt]
+16-2x & \text{if }7 \leq x \leq 8.
+\end{cases}\)</p>
+<p>As with the tent map, we can make itineraries for \(f\), with \(\mathsf{L}=[0,4]\) and \(\mathsf{R}=[4,8]\).  The goal of this assignment is to show that \(f\) is topologically conjugate to the tent map.</p>
+
+
+
+<ol>
+
+<li> <ol class="parts">
+<li class="part"> The function \(f\) has one fixed point on the interval \((0,8)\).  Find it.
+</li>
+<li class="part"> Find the point whose itinerary under \(f\) is \(\mathsf{LRRRRRR}\cdots\).
+</li>
+<li class="part"> What are the corresponding points for the tent map?
+</li>
+</ol>
+
+
+
+</li>
+<li> Find the endpoints of the \(\mathsf{LL}\), \(\mathsf{LR}\), \(\mathsf{RR}\), and \(\mathsf{RL}\) intervals for \(f\).  Do the same for the \(\mathsf{LLL}\), \(\mathsf{LLR}\), \(\mathsf{LRR}\), \(\mathsf{LRL}\), \(\mathsf{RRL}\), \(\mathsf{RRR}\), \(\mathsf{RLR}\), and \(\mathsf{RLL}\) intervals.
+
+
+
+</li>
+<li><ol class="parts">
+<li class="part"> Find the itinerary of the point \(1.6\) under \(f\).
+</li>
+<li class="part"> Find the Lyapunov number of the periodic cycle you found in part&nbsp;(a)
+</li>
+<li class="part"> Which point in \([0,1]\) has the same itinerary under the tent map?
+</li>
+</ol>
+
+
+
+</li>
+<li> <ol class="parts">
+<li class="part"> The function \(f\) has two \(3\)-cycles.  Find them. (Express your answers as fractions.)
+</li>
+<li class="part"> Determine the Lyapunov numbers of the cycles that you found in part&nbsp;(a).
+</li>
+<li class="part"> Find the two \(3\)-cycles for the tent map.
+</li>
+</ol>
+
+
+
+</li>
+<li> To show that the dynamical systems determined by \(f\) and \(T\) are topologically conjugate, we must find a homeomorphism \(c\colon[0,1]\to[0,8]\) such that \(c\circ T = f\circ c\).
+<ol class="parts">
+<li class="part"> Use questions 1&ndash;4 to list twenty-one data points for the function \(c\) (two from question&nbsp;1, nine from question&nbsp;2, four from question&nbsp;3, and six from question&nbsp;4).
+</li>
+<li class="part"> Find the formula for a function \(c\) whose graph includes all \(21\) data points.  Verify this by plotting a graph of \(c\) together with the data points.
+</li>
+<li class="part"> Use <i>Mathematica</i> to verify that your formula for \(c\) satisfies \(c\circ T = f\circ c\).
+</li>
+</ol>
+
+</li>
+</ol>
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

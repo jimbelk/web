@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 1</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 1</h1>
+
+
+
+<p><b>Due Date: </b>Friday, February 5</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me all of your associated files.</p>
+
+
+
+<ol>
+
+<li>Define a sequence \(a_1,a_2,a_3,\ldots\) recursively by \(a_1 = 2\) and \(a_{n+1} = a_n(a_n+1)\) for \(n\geq 1\).  Prove that each \(a_n\) is divisible by at least \(n\) different primes.  (This gives another proof that there are infinitely many primes.)
+</li>
+
+<li>Let \(P_{3,4} = \{p\in\mathbb{N} \mid p\text{ is prime and }p \equiv 3\text{ (mod }4\text{)}\}\).  Prove that \(P_{3,4}\) is infinite.</li>
+
+<li>Given a positive integer \(a_1\), the corresponding <b><i>Collatz sequence</i></b> \(a_1,\ldots,a_n\) is defined recursively by the formula
+\[
+a_{k+1} \,=\, \begin{cases}a_k/2 & \text{if }a_k\text{ is even}, \\[3pt] 3a_k+1 & \text{if }a_k\text{ is odd and }a_k\ne 1.\end{cases}
+\]
+The sequence terminates when it reaches 1.  For example, the Collatz sequence for 17 is
+\[
+17,\;\;52,\;\;26,\;\;13,\;\;40,\;\;20,\;\;10,\;\;5,\;\;16,\;\;8,\;\;4,\;\;2,\;\;1.
+\]
+The <b><i>Collatz conjecture</i></b> states that the Collatz sequence starting at any positive integer reaches 1 after finitely many steps.
+<ol class="parts">
+      <li class="part"> Write a computer program that computes the length of the Collatz sequence for a given positive integer.
+      </li>
+<li class="part">Use your program to determine which number between 1 and 10,000 has the longest Collatz sequence.
+      </li>
+<li class="part">Make a scatter plot showing the numbers 1 through 10,000 on the horizontal axis and the length of the corresponding Collatz sequence on the vertical axis.
+      </li>
+</ol>
+</li>
+
+
+<!--<li>Find all prime numbers \(p\) for which \(67p+9\) is a perfect square.  Prove your answer.</li>
+
+
+<li> <ol class="parts">
+      <li class="part"> Write a program that uses trial division to factor a number into primes.  Use your program to factor the number 166433156800722414483107.
+      </li>
+<li class="part">Write a program that uses the Sieve of Eratosthenes to compute a list of all the primes less than 10,000.   Use your program to count the number of primes between 1 and 10,000.
+      </li>
+</ol>
+</li>-->
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

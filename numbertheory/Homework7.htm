@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 7</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 7</h1>
+
+
+
+<p><b>Due Date: </b>Friday, April 1</p>
+
+
+<p>A text message was converted to (8-bit) ASCII and then the digits were concatenated to form a long binary number.  This was encoded using the RSA cryptosystem, resulting in the following ciphertext:</p>
+
+<p style="padding-left:40px">7014063581513644174655584972332551078024266141287986002648300214173575<br>
+7684473244752735220017243937187140291993662559210409962823639463530244<br>
+3685212931291675947845515345843732106176818939627436251256347983016058<br>
+6966991951662300272230128931777433015961007948159107399876981617297502<br>
+6713226665893761283473047146671341892252704919141665797631038518966024<br>
+5595143032331043898633060313492</p>
+</li>
+
+<p>Given that the RSA modulus is</p>
+
+<p style="padding-left:40px">8451450772216083416758115941619120746809659948308203937833610209061485<br>
+9926378780614060463853414050386655231415831126935189238246765659642070<br>
+6769445539865919710137544683518466242248747587796091366631790442462944<br>
+1629514907546178427894456467100470724188347429767425311424792997097413<br>
+3955416121658005104447815053804492696743032591137416388856368978722885<br>
+3751922971540177024342722909161
+</p>
+
+<p>and the public decryption key is</p>
+
+<p style="padding-left:40px">1876296023242675699332183699454987334538240578134198209636991231034310<br>
+7896963097567436480618693639276601352207521831800759554600504166466407<br>
+6220913291104822547469940649032807996719678796390553229547599158904449<br>
+0297906488298066235400985617072933241979457339814961387457125752589383<br>
+2223951128087424524995291854321881715234807378279282205967880628899593<br>
+014568796700321215899352260391</p>
+
+<p>decipher the original text message.</p>
+
+<p><b>Hints:</b></p>
+<p>1. You might find the following functions helpful:
+<ul>
+<li><a href="MathematicaCryptographyCommands.html">Mathematica Cryptography Commands</a></li>
+<li><a href="SageMathCryptographyCommands.html">SageMath Cryptography Commands</a></li>
+</ul>
+</p>
+<p>2. It might be hard to decipher the long message above on your first try.  I recommend that you start by getting RSA encryption <i>and</i> decryption working for short ASCII messages (and smaller moduli and keys), and then try your code on the message above.
+</p>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

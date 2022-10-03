@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 12</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 12 (Extra Credit)</h1>
+
+<p><i>Note:</i> This assignment is extra credit, with each problem worth the indicated number of points on the final exam.  You can turn in none, some, or all of the problems.  As with any homework assignment, feel free to work together with other students in the class when solving these problems.</p>
+
+<ol>
+
+<!--<li>
+<ol class="parts">
+<li class="part">
+If \(\mathbb{F}\) is a finite field of characteristic \(p>2\), prove that
+\[
+\prod_{a\in\mathbb{F}^\times} a \,=\, -1.
+\]
+</li>
+f<li class="part">
+Let \(p\) be a prime congruent to 3 modulo 4.  Prove that
+\[
+\prod_{j=1}^{p-1}\, \prod_{k=1}^{p-1} \bigl(j^2+k^2\bigr) \,\equiv\, 1\;(\mathrm{mod}\;p).
+\]
+</li>
+</ol>
+</li>-->
+
+
+<li><b>[5 points]</b> Prove that \(x^p-x-1\) is irreducible over \(\mathbb{Z}_p\) for any prime \(p\).<br>
+(<i>Hint:</i> Use Corollary&nbsp;8 from the &ldquo;Classification of Finite Fields&rdquo; notes.)</li>
+
+<li><b>[10 points]</b> Let \(p\) be a prime congruent to 7 modulo 9, let \(\omega\in\mathbb{Z}_p^\times\) be an element of order&nbsp;3, and let \(a\) be a perfect cube in \(\mathbb{Z}_p^\times\) (i.e.&nbsp;a nonzero cubic residue).
+<ol class="parts">
+<li class="part">Prove that neither \(\omega a\) nor \(\omega^2 a\) has a cube root in \(\mathbb{Z}_p^\times\).</li>
+<li class="part">Prove that \(a^{(p+2)/9}\) is a cube root of \(a\) modulo \(p\).</li>
+<li class="part">Use part (b) to find a cube root of 1566402791096 modulo 5716135896379.</li>
+</ol>
+</li>
+
+<li><b>[15 points]</b> The goal of this problem is to prove the following theorem.</p>
+<p><b>Theorem.</b> <i>For any positive integer \(n\), there are infinitely many primes congruent to 1 modulo \(n\).</i></p>
+<ol class="parts">
+<li class="part">Let \(p\) be a prime, let \(n\geq 1\), and suppose that \(p\,{\not|}\; n\).  Prove that every root of the cyclotomic polynomial \(\Phi_n(x)\) in \(\mathbb{Z}_p\) must have order \(n\).<br>
+(<i>Hint:</i> Combine Proposition&nbsp;10 from the &ldquo;Classification of Finite Fields&rdquo; notes with Theorem&nbsp;19 from the notes on cyclotomic polynomials.)
+</li>
+<li class="part">Prove that if \(j\) and \(n\) are positive integers then \(\gcd\bigl(j,\Phi_n(j)\bigr) = 1\).
+</li>
+<li class="part">If \(n\) and \(k\) are positive integers, use parts (a) and (b) to prove that every prime factor of \(\Phi_n(nk)\) is congruent to 1 modulo \(n\).
+</li>
+<li class="part">Use parts (b) and (c) to prove the theorem.
+<br>(<i>Hint:</i> Use a variation of Euclid's proof of the infinitude of primes.  Note that \(\Phi_n(a)\) is monic, so \(\Phi_n(a) > 1\) for sufficiently large values of \(a\).)
+</li>
+</ol>
+</li>
+
+<!--<li>Let \(p\) be a prime, let \(f(x),g(x)\in\mathbb{Z}_p[x]\), and suppose that \(f(x)\) is irreducible.  Prove that there exists an irreducible polynomial \(h(x)\in \mathbb{Z}_p[x]\) so that \(f(x) \mid h\bigl(g(x)\bigr)\).
+</li>-->
+
+<!--<li>Let \(\mathbb{F}\) be a field with \(p^d\) elements, where \(p\) is prime and \(d\geq 1\).  For each \(a\in\mathbb{F}\), let
+\[
+\mathrm{tr}(a) \,=\, \sum_{k=0}^{d-1} a^{p^k}.
+\]
+<ol class="parts">
+<li class="part">Prove that \(\mathrm{tr}(a)\in\mathbb{Z}_p\) for all \(a\in\mathbb{F}\).</li>
+<li class="part">Prove that \(\mathrm{tr}(a+b) = \mathrm{tr}(a) + \mathrm{tr}(b)\) for all \(a,b\in\mathbb{F}\).</li>
+<li class="part">Prove that \(\mathrm{tr}(ka) = k\,\mathrm{tr}(a)\) for \(k\in\mathbb{Z}_p\) and \(a\in\mathbb{F}\).</li>
+<li class="part">Prove that there exists an \(a\in\mathbb{F}\) for which \(\mathrm{tr}(a)\ne 0\).</li>
+</ol>
+</li>-->
+
+<!--<li>Find a square root of 17 modulo 5591395533698728348459.
+</li>-->
+
+<!--<li>Let \(\{f_n\}\) denote the Fibonacci sequence, with \(f_0=0\), \(f_1=1\), and \(f_n = f_{n-1}+f_{n-2}\) for \(n\geq 2\).
+<ol class="parts">
+<li class="part">
+Prove that if \(\mathbb{F}\) is a field and \(\varphi\) and \(\psi\) are distinct roots of the polynomial \(x^2-x-1\) in \(\mathbb{F}\), then
+\[
+f_n \,=\, (\varphi-\psi)^{-1}\bigl(\varphi^n+\psi^n\bigr)
+\]
+in \(\mathbb{F}\) for all \(n\).
+</li>
+<li class="part">
+Let \(p\) be the prime \(10^{50}+151\), and let \(n=10^{30}\).  Compute \(f_n\) modulo \(p\).
+</li>
+</ol>
+</li>-->
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

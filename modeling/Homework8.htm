@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 8</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 8</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, November 12</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>As discussed in class, the Budyko energy balance model for the Earth's climate involves the differential equations
+\[
+\frac{d\overline{T}}{dt} \,=\, Q(1-\overline{\alpha}) - A - B\overline{T}
+\]
+and
+\[
+\frac{\partial T}{\partial t} \,=\, Q\, s(y)\,\bigl(1-\alpha(y)\bigr) - A - BT + C(\overline{T}-T).
+\]
+where \(Q=343\), \(A=202\), \(B=1.90\), \(C = 3.04\), and \(s(y)=1.241-0.723y^2\) (all with appropriate units), and \(T\) is measured in degrees celsius.
+<ol class="parts">
+<li class="part">Make a plot in <code>Mathematica</code> of the equilibrium temperature function \(T(y)\) in the ice-free case where \(\alpha(y)=0.32\).</li>
+<li class="part">What is the average temperature \(\overline{T}\) in this case?  What is the temperature at the poles?  What is the temperature at the equator?</li>
+<li class="part">Repeat parts (a) and (b) for an ice-covered Earth that satisfies \(\alpha(y)=0.62\).</li>
+<li class="part">Consider a period of severe glaciation where ice covers 30% of the Earth's surface.  In this situation, we can model the albedo function as follows:
+\[
+\alpha(y) \,=\, \begin{cases}0.32 & \text{if }0\leq y \leq 0.70 \\[3pt] 0.62 & \text{if }0.70< y \leq 1.\end{cases}
+\]
+(You can use <code>Piecewise</code> to define such a function in Mathematica.)  Compute the average albedo \(\overline{\alpha} = \int_0^1 \alpha(y)\,s(y)\,dy\) in this case.
+</li>
+<li class="part">Repeat parts (a) and (b) for this case.
+</ol>
+</li>
+
+<li>An alternative to the Budyko model is to use a more diffusive model of heat transport, where heat flows directly between neighboring values of \(y\).  One such model was proposed by G.&nbsp;North:
+\[
+\frac{\partial T}{\partial t} \,=\, Q\, s(y)\,\bigl(1-\alpha(y)\bigr) - A - BT + \mu\,\nabla T
+\]
+where
+\[
+\nabla T(y) \,=\, \frac{\partial}{\partial y}\biggl[(1-y^2)\frac{\partial T}{\partial y}\biggr]
+\]
+<ol class="parts">
+<li class="part">Use <code>NDSolve</code> in Mathematica to find the equilibrium solution for North's model in the ice-free case, assuming that \(\mu=0.50\).  You will need to use the boundary conditions \(T'(0)=0\) and \(T'(1)=0\) to get a unique solution.</p>
+<p><i>Note:</i> You might have trouble with <code>NDSolve</code> because the differential equation has a singularity at \(y=1\). You can fix this by replacing the \(1-y^2\) in the definition of \(\nabla T(y)\) by \(1.001-y^2\).
+</p>
+</li>
+<li class="part">Plot your solution to part (a).  What is the predicted temperature at the poles?
+<li class="part">Repeat parts (a) and (b) for the 100% ice-covered case and for the 30% ice-covered case.
+<p><i>Note:</i> Some students have been having trouble with <code>NDSolve</code> for this part.  I recommend defining \(\alpha(y)\) using the code 
+<code>a[y_] := Piecewise[{{0.32, y < 0.7}, {0.62, 0.7 < y}}]</code>.
+</p>
+</li>
+</ol>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

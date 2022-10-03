@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 6</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 6</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, October 15</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>The HIV virus primarily targets CD4+ T cells, sometimes called helper T&nbsp;cells. During an infection, the total number \(T(t)\) of helper T&nbsp;cells in the blood, the number \(T^*(t)\) of infected helper T&nbsp;cells, and the number \(V(t)\) of HIV virions (free virus particles) in the blood can be modeled by the differential equations
+\[
+\frac{dT^*}{dt} \,=\, kTV - \delta T^*, \qquad \frac{dV}{dt} \,=\, \pi T^* - cV,
+\]
+where \(k\), \(\delta\), \(\pi\), and \(c\) are positive constants.
+<ol class="parts">
+<li class="part">Briefly explain what each term in each of these two differential equations represents.  What assumptions about proportionality are being made in this model?  What is the significance of the four constants \(k\), \(\delta\), \(\pi\), and \(c\)?
+</li>
+<li class="part">A typical HIV infection spends many years in a quasi-steady state.  Find formulas for the ratio \(T^*/V\) and the the total number \(T\)  of helper T&nbsp;cells during this steady state in terms of the constants \(k\), \(\delta\), \(\pi\), and \(c\). 
+<li class="part">Administration of an RT inhibitor (an antiretroviral drug) blocks the virus from infecting new cells, thereby decreasing \(k\) to zero. Assuming we administer such a drug at \(t=0\), find a formula for \(T^*(t)\) in this case, assuming the initial condition \(T^*(0)=T^*_0\).
+<li class="part">Use your answer to part (c) to find a general formula for \(V(t)\) in the same scenario.  (You will need to use the method of integrating factors to solve this part.)
+</li>
+<li class="part">Assuming the infection is in a quasi-steady state at \(t=0\) with initial condition \(V(0) = V_0\), use your answers to parts&nbsp;(b) and (d) to show that
+\[
+V(t) \,=\, \frac{\bigl(ce^{-\delta t} - \delta e^{-ct}\bigr)V_0}{c-\delta}.
+\]
+</li>
+</ol>
+
+<li>A protease inhibitor is an antiviral drug that interferes with viral replication, causing newly produced virions to be non-infectious.  The effect of a protease inhibitor can be modeled by the differential equations
+\[
+\frac{dT^*}{dt} \,=\, kTV_I - \delta T^*, \qquad \frac{dV_{NI}}{dt} \,=\, \pi T^* - cV_{NI},\qquad \frac{dV_{I}}{dt} \,=\, -cV_I,
+\]
+where \(V_I(t)\) is the number of infectious HIV virions and \(V_{NI}(t)\) is the number of non-infectious HIV virions.
+<ol class="parts">
+<li class="part">Assuming a protease inhibitor is administered at \(t=0\), the number of infectious virions will decrease exponentially according to the equation \(V_I = V_0e^{-ct}\).  Find a general formula for \(T^*(t)\) in this case, assuming that the total number \(T(t)\) of helper T&nbsp;cells is constant.</li>
+<li class="part">Assuming the HIV infection is in a quasi-steady state at \(t=0\), use your answer to part (a) to show that
+\[
+T^*(t) \,=\, \frac{\bigl(\delta e^{-ct} - ce^{-\delta t}\bigr)T_0^*}{\delta - c}
+\]
+</li>
+<li class="part">Use your answer to part (b) to show that
+\[
+V_{NI}(t) \,=\, \frac{cV_0}{\delta-c}\left(\delta te^{-ct} + \frac{c}{\delta-c}\bigl(e^{-\delta t}-e^{-ct}\bigr)\right)
+\]
+</li>
+</ol>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

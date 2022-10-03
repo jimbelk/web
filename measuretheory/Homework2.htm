@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 2</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 2</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, February 12</p>
+
+<p>The goal of this assignment is to prove the following theorem regarding the convergence of Fourier series.</p>
+<p><b>Theorem.</b> <i>Let \(f\) be a \(C^2\) function that is periodic with period \(2\pi\), and let \(a\), \(b_n\), and \(c_n\) denote the Fourier coefficients for \(f\).  Then the series
+\[
+a + \sum_{n=1}^\infty \bigl(b_n \cos nx + c_n \sin nx\bigr)
+\]
+converges pointwise to \(f\).
+</i>
+
+<p><b>Note:</b> Recall here that a function \(f\) is \(C^n\) if it is \(n\)-times differentiable and \(f^{(n)}\) is continuous.</p>
+
+
+<ol>
+
+<li>If \(f\) and \(g\) are continuous periodic functions with period \(2\pi\), define the convolution \(f*g\) by the formula
+\[
+(f*g)(x) \,=\, \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x-t) g(t)\,dt.
+\]
+Prove that \(f* g = g * f\).
+</li>
+
+<li>For each \(n\in\mathbb{N}\), let
+\[
+D_n(x) \,=\, 1 + 2\sum_{k=1}^n \cos kx.
+\]
+If \(f\) is a continuous periodic function with period \(2\pi\), prove that
+\[
+(D_n*f)(x) \,=\, a + \sum_{k=1}^n \bigl( b_k \cos kx + c_k\sin kx\bigr)
+\]
+for all \(n\in\mathbb{N}\), where \(a\), \(b_n\), and \(c_n\) are the Fourier coefficients for \(f\).
+</li>
+
+<li>Prove that
+\[
+D_n(x) = \frac{\sin \bigl((n+\frac{1}{2})x\bigr)}{\sin(x/2)}
+\]
+for all \(n\in\mathbb{N}\) and all values of \(x\) for which \(\sin(x/2) \ne 0\).</li>
+</li>
+
+<li>Let \(f\) be a \(C^2\) function, let \(a\in\mathbb{R}\), and let \(g\colon\mathbb{R}\to\mathbb{R}\) be the function defined by
+\[
+g(a) = f'(a)\qquad\text{and}\qquad g(x) \,=\, \frac{f(x) - f(a)}{x-a}\text{ for }x\ne a.
+\]
+Prove that \(g\) is \(C^1\).
+</li>
+
+<li>If \(f\) is \(C^2\) and periodic with period \(2\pi\), prove that \(f * D_n \to f\) pointwise.<br>
+<i>Hint:</i> Prove that
+\[
+f(x) - (f*D_n)(x) \,=\, \frac{1}{2\pi}\int_{-\pi}^{\pi} g(t)\, \sin\bigl((n+\tfrac{1}{2})t\bigr)\,dt
+\]
+for some \(C^1\) function \(g\) and then use integration by parts.
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

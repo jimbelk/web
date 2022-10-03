@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 4</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 4</h1>
+
+<p><b>Due Date: </b>Friday, October 2</p>
+
+<ol>
+<li> The map \(\mathbf{f}(x,y) = ({-}x^2 +y^2 + 0.9x -0.6y,\) \({-}2xy+2x+0.5y)\) has a strange attractor.
+<ol class="parts">
+<li class="part"> Use <code>ListLinePlot</code> to draw the first 200 points in the orbit of \((1,1)\) under \(\mathbf{f}\).  Include the following options:
+    <ul>
+    <li><code>ImageSize -> 800</code> to increase the size of the plot</li>
+    <li><code>Mesh -> All</code> to make the points of the orbit visible</li>
+    <li><code>MeshStyle -> PointSize[Large]</code> to increase the size of the points</li>
+    </ul>
+</li>
+<li class="part"> We can get a better picture of the attractor by drawing more points and dropping the lines.  Use <code>ListPlot</code> (not <code>ListLinePlot</code>) to draw the first 500,000 points in the orbit of \((1,1)\) under&nbsp;\(\mathbf{f}\). Include the following options:
+    <ul>
+    <li><code>ImageSize -> 800</code> to make the plot bigger</li>
+    <li><code>PlotStyle -> PointSize[Tiny]</code> to decrease the size of the points</li>
+    </ul>
+</li>
+</ol>
+
+
+</li>
+<li>
+<ol class="parts">
+<li class="part"> Use <code>Manipulate</code> to create an interactive <code>ListLinePlot</code> of the first 200 points in the orbit of a point \(p\) under the function \(\mathbf{f}(x,y) = \bigl(1+\sin y,0.2y-x\bigr)\), with the position of \(p\) determined by a <code>Locator</code>.  Include the following options:
+    <ul>
+    <li>The options for <code>ListLinePlot</code> suggested in question&nbsp;1(a)</li>
+    <li><code>PlotRange -> {{-2,2},{-2,2}}</code> to fix the size of the viewing window.</li>
+    </ul>
+</li>
+<li class="part"> For each of the following functions, use your code from part (a) to investigate the dynamics. Does the function have any attractors? If so, classify each attractor as a fixed point, an attracting cycle, or something else. Does the function exhibit any signs of chaos?
+    <ul>
+    <li style="margin-top:1em"> \(\mathbf{f}(x,y) = \bigl(1+\sin y,\) \(0.2y-x\bigr)\)
+    </li>
+<li style="margin-top:1em"> \(\mathbf{g}(x,y) = \bigl(\sin(2x+y),\) \(x/2\bigr)\)
+    </li>
+<li style="margin-top:1em"> \(\mathbf{h}(x,y) = \biggl(\dfrac{\cos x - 3y}{5},\) \(2 \sin(x)\biggr)\)
+    </li>
+<li style="margin-top:1em"> \(\mathbf{j}(x,y) = \bigl(\sin y,\) \(\sin y - 1.3\sin x\bigr)\)
+    </li>
+<li style="margin-top:1em"> \(\mathbf{k}(x,y) = \bigl(\sin(x+2y),\) \(\sin(4x)\bigr)\)
+    </li>
+</ul>
+</li>
+</ol>
+
+
+</li>
+<li> The notebook <a href="Pendulums.nb"><code>Pendulums.nb</code></a> contains code for the commands <code>Pendulum</code> and <code>DDPendulum</code>.  You can use these commands as follows:
+<ul>
+<li> <code>Pendulum[{</code>\(\theta_0\)<code>,</code>\(\omega_0\)<code>},</code>\(t_{\scriptscriptstyle\mathrm{max}}\)<code>]</code> returns the function \(\theta(t)\) for a basic pendulum with initial conditions \(\theta(0) = \theta_0\), \(\theta\hspace{0.08333em}'(0) = \omega_0\). The function \(\theta(t)\) will only work for \(0 \leq t \leq t_{\scriptscriptstyle\mathrm{max}} \).
+</li>
+<li> <code>DDPendulum[{</code>\(\theta_0\)<code>,</code>\(\omega_0\)<code>},</code>\(t_{\scriptscriptstyle\mathrm{max}}\)<code>]</code> works the same way, but it returns the function \(\theta(t)\) for a damped driven pendulum.
+</li>
+</ul>
+<ol class="parts">
+<li class="part"> Use <code>Animate</code> to display an animation of a (basic) moving pendulum. The animation should run for 100 seconds, and the pendulum should start at \(\theta(0) = \pi/2\) and \(\theta\hspace{0.08333em}'(0) = 0\). Your animation should include:
+ <ul>
+ <li>A <code>Line</code> for the string</li>
+ <li>A <code>Disk</code> for the bob</li>
+ <li>The <code>PlotRange</code> option for <code>Graphics</code> to keep your image stable</li>
+ <li>The <code>AnimationRate -> 1</code> option for <code>Animate</code> to run the animation at the appropriate rate.</li>
+ </ul>
+ <i>Warning:</i> Do not use <code>Pendulum</code> inside of <code>Animate</code>&mdash;this command is too slow to run every frame. Call <code>Pendulum</code> beforehand to get the function \(\theta(t)\), and then use the result inside of <code>Animate</code>.
+</li>
+<li class="part"> Now show an animation of 100 seconds of the motion of the damped driven pendulum for \(\theta(0) = \theta\hspace{0.08333em}'(0) = 0\).
+</li>
+<li class="part"> Use <code>Row</code> inside of <code>Animate</code> to show side-by-side animations of the damped driven pendulum with slightly different initial conditions. (You will need to use <code>ImageSize</code> for each <code>Graphics</code> or they will be very small.)  Use \(\theta(0) = 1\) or \(1.01\) and \(\theta\hspace{0.08333em}'(0) = 0\) for your two initial states.  Does this system exhibit sensitive dependence on initial conditions?
+</li>
+<li class="part"> Create a function <code>Advance[{</code>\(\theta_0\)<code>,</code>\(\omega_0\)<code>}]</code> for the damped driven pendulum that takes a pair \(\bigl(\theta(0),\theta\hspace{0.083333em}'(0)\bigr)\) as input and outputs \(\bigl(\theta(2\pi),\theta\hspace{0.083333em}'(2\pi)\bigr)\). Use <code>Mod</code> to make sure that the outputted value of \(\theta(2\pi)\) is between \(0\) and \(2\pi\). You may also find the <code>With</code> command helpful for this.  Your function works correctly if <code>Advance[{1.0,-9.0}]</code> outputs <code>{3.78895,-7.13387}</code>.
+    </li>
+<li class="part"> The function <code>Advance</code> has a strange attractor.  Use the method of question&nbsp;1(b) to draw a picture of this attractor, showing 100,000 points in the orbit of&nbsp;\((0,0)\).
+</li>
+</ol>
+
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

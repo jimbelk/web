@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 7</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 7</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, April 8</p>
+
+
+
+<ol>
+
+<li>If \((X,\mu)\) is a measure space, a <b><i>measure-preserving transformation</i></b> of \(X\) is a bijection \(\varphi\colon X\to X\) such that \(\varphi^{-1}(E)\) is measurable for each measurable set \(E\subseteq X\), with \(\mu\bigl(\varphi^{-1}(E)\bigr) = \mu(E)\).
+<p>Let \((X,\mu)\) be a measure space, and let \(\varphi\) be a measure-presrving transformation of \(X\).  Prove that if \(f\) is a Lebesgue integrable function on \(X\), then \(f\circ \varphi\) is also Lebesgue integrable, and
+\[
+\int_X (f\circ \varphi)\,d\mu \,=\, \int_X f\,d\mu.
+\]
+</li>
+
+<li>
+<ol class="parts">
+<li class="part">Prove that for any measurable set \(E \subseteq \mathbb{R}\), there exists a sequence \(\{g_n\}\) of continuous functions so that 
+\[
+\lim_{n\to\infty} \int_{\mathbb{R}} |g_n-\chi_E|\,dm \,=\, 0.
+\]
+(<i>Hint:</i> Look up Urysohn's lemma, which is Theorem&nbsp;33.1 in Munkres.)</li>
+<li class="part">Prove that for any \(L^1\) function \(f\colon \mathbb{R}\to\mathbb{R}\), there exists a sequence \(\{g_n\}\) of continuous functions so that
+\[
+\lim_{n\to\infty} \int_{\mathbb{R}} |g_n-f|\,dm \,=\, 0.
+\]
+</li>
+</ol>
+</li>
+
+<li>Let \((X,\mu)\) be a measure space with \(0 < \mu(X) < \infty\), and let \(f\colon X\to[0,\infty)\) be a bounded measurable function. Define
+\[
+\|f\|_p \,=\, \biggl(\int_X f^p\biggr)^{1/p}
+\]
+for each \(p \in [1,\infty)\), and let
+\[
+\|f\|_{\infty} \,=\, \min\bigl\{M \;\bigr|\; f \leq M\text{ almost everywhere}\bigr\}.
+\]
+<ol class="parts">
+<li class="part">Prove that \(\|f\|_p \leq \|f\|_\infty\, \mu(X)^{1/p}\) for all \(p\geq 1\).</li>
+<li class="part">Prove that \(\|f\|_p \to \|f\|_\infty\) as \(p\to\infty\).<br>
+(<i>Hint:</i> Let \(\alpha\in (0,1)\) and prove that \(\|f\|_p \geq \alpha \|f\|_\infty\) for sufficiently large \(p\).)</li>
+</ol></li>
+
+<!--<li>Let \((X,\mu)\) be a measure space with \(\mu(X)<\infty\), and let \(\{f_n\}\) be a sequence of non-negative measurable functions on \(X\) that converge pointwise to zero.  Prove that there exists a subsequence \(\{f_{n_k}\}\) such that
+\[
+\sum_{k\in\mathbb{N}} f_{n_k}(x) \,<\, \infty
+\]
+for almost all \(x\in X\).</li>-->
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
+

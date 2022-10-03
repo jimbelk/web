@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Midterm</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Takehome Midterm</h1>
+
+<p><b>Due Date: </b>Sunday, April 3 at 11:59 pm</p>
+
+<p><b>Rules: </b>This is a midterm exam, not a homework assignment. You must solve the problems
+entirely on your own, and you should not discuss the problems with any other students in the class.  While working on the exam, you should feel free to consult the notes and homework solutions posted on the class web page, as well as any notes you might have related to the class.  If you like, you may also consult the following textbooks:
+<ul>
+<li><i>The Real Numbers and Real Analysis</i> by Ethan Bloch.</li>
+<li><i>Proofs &amp; Fundamentals: A First Course in Abstract Mathematics</i> by Ethan Bloch.</li>
+<li><i>Calculus</i> by James Stewart.</li>
+<li><i>Topology</i> by James Munkres.</li>
+<li><i>Principles of Mathematical Analysis</i> by Walter Rudin.</li>
+<li><i>Real &amp; Complex Analysis</i> by Walter Rudin</li>
+<li><i>A Primer of Lebesgue Integration</i> by H. S. Bear.</li>
+<li><i>An Introduction to Measure Theory</i> by Terence Tao.</li>
+</ul>
+You should not consult any other textbooks or internet sources when working on the exam.</p>
+
+<ol>
+
+<li>If \(S\) and \(T\) are sets, the <b>symmetric difference</b> of \(S\) and \(T\) is the set
+\[
+S \bigtriangleup T \,=\, (S\cap T^c) \cup (S^c \cap T).
+\]
+ If \(\{E_n\}\) is a sequence of measurable sets in \([0,1]\), we say that \(\{E_n\}\) <b>converges</b> to a measurable set \(E\) if
+\[
+\lim_{n\to\infty} m(E_n \bigtriangleup E) \,=\, 0.
+\]
+<ol class="parts">
+<li class="part">Prove that if \(E_1,E_2,\ldots\) and \(E\) are measurable sets in \([0,1]\) and \(\chi_{E_n} \to \chi_E\) pointwise almost everywhere on \([0,1]\), then \(\{E_n\}\) converges to \(E\).</li>
+<li class="part">Find a sequence \(\{E_n\}\) of measurable sets in \([0,1]\) such that \(\{E_n\}\) converges to the empty set but \(\{\chi_{E_n}(x)\}\) does not converge for any \(x\in[0,1]\).</li>
+<li class="part">Prove that if \(\{E_n\}\) is a sequence of measurable sets in \([0,1]\) and
+\[
+\sum_{n=1}^\infty m(E_n\bigtriangleup E_{n+1}) \,<\, \infty,
+\]
+then \(\{\chi_{E_n}\}\) converges pointwise almost everywhere.</li>
+<li class="part">Let \(\{E_n\}\) be a sequence of measurable sets in \([0,1]\).  Suppose that for every \(\epsilon > 0\), there exists an \(N\in\mathbb{N}\) so that
+\[
+i,j \geq N\qquad\Rightarrow\qquad m(E_i \bigtriangleup E_j) < \epsilon.
+\]
+Use parts (a) and (c) to prove that \(\{E_n\}\) converges to some measurable set \(E\).
+</li></ol>
+</li>
+
+<li>If \(f\colon\mathbb{R}\to\mathbb{R}\) is a bounded measurable function and \(g\colon\mathbb{R}\to\mathbb{R}\) is an \(L^1\) function, the <b>convolution</b> of \(f\) and \(g\) is the function \(f*g\colon \mathbb{R}\to\mathbb{R}\) defined by
+\[
+(f*g)(x) \,=\, \int_{\mathbb{R}} f(x-t)\,g(t)\,dm(t).
+\]
+(Note that this integral always exists, so \(f*g\) is a well-defined function.)
+<ol class="parts">
+<li class="part">Let \(f_n\colon \mathbb{R}\to\mathbb{R}\) be a uniformly bounded sequence of measurable functions converging pointwise to a function \(f\colon\mathbb{R}\to\mathbb{R}\), and let \(g\colon\mathbb{R}\to\mathbb{R}\) be an \(L^1\) function. Prove that \(f_n*g\) converges pointwise to \(f*g\). </li>
+<li class="part">Prove that if \(f\colon\mathbb{R}\to\mathbb{R}\) is a bounded continuous function and \(g\colon \mathbb{R}\to\mathbb{R}\) is an \(L^1\) function, then \(f*g\) is continuous.</li></ol>
+</li>
+
+<!--<li>Prove that
+\[
+\lim_{n\to\infty} \int_{-\infty}^\infty \exp\biggl[{-}2|x| \biggl(1 + \frac{\tan^{-1}(nx)}{\pi}\biggr)\biggr]\,dx \,=\, \frac{4}{3}.
+\]
+</li>-->
+
+
+<!--<li>Let \(f\colon [0,1]\to[0,\infty)\) be a bounded measurable function. Let
+\[
+\|f\|_p \,=\, \biggl(\int_{[0,1]} f^p\biggr)^{1/p}
+\]
+for each \(p\geq 1\), and let
+\[
+\|f\|_{\infty} \,=\, \sup\{\alpha\in\mathbb{R} \mid m(E_\alpha) > 0\},
+\]
+where \(E_\alpha = \{x\in\mathbb{R} \mid f(x) \geq \alpha\}\).
+<ol class="parts">
+<li class="part">Prove that \(\|f\|_p \leq \|f\|_\infty\) for all \(p\geq 1\).</li>
+<li class="part">Prove that \(\|f\|_p \to \|f\|_\infty\) as \(p\to\infty\).</li>
+</ol></li>-->
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Final Exam</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Takehome Final</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, December 16 at 11:59 pm</p>
+
+<p><b>Instructions:</b> Your solutions must be typed, and should be e-mailed to me at <a href="mailto:jim.belk@gmail.com">jim.belk@gmail.com</a> sometime before the due date.  In addition to your solutions, please e-mail me any Excel or Mathematica notebooks that you use for solving the problems.</p>
+
+
+<p><b>Rules:</b> This is a takehome exam, not a homework assignment. You must solve the problems entirely on your own, and you should not discuss the problems with any other students in the class, or with anyone on the internet.  You should feel free to use Excel or Mathematica as much as you like, and you may consult internet resources such as Wikipedia articles, online Mathematica documentation, or Wolfram alpha, but you cannot post to any forums or solicit help from anyone on the internet.</p>
+
+
+<ol>
+
+<li>A chemical reaction involving four substances \(\mathrm{A}\), \(\mathrm{B}\), \(\mathrm{C}\), and \(\mathrm{D}\) consists of the following four elementary reactions:
+\[
+\mathrm{A} \,\to\, \mathrm{B},\qquad\qquad\mathrm{B} \,\to\, \mathrm{C},\qquad\qquad \mathrm{B}+2\mathrm{C} \,\to\, 3\mathrm{C},\qquad\qquad \mathrm{C}\,\to\, \mathrm{D}.
+\]
+The rate constants for these reactions are respectively \(0.8/\mathrm{min}\) for the first reaction, \(0.5/\mathrm{min}\) for the second reaction, \(150/(\mathrm{M}^2\cdot\mathrm{min})\) for the third reaction, and \(4.0/\mathrm{min}\) for the fourth reaction.  (Here \(\mathrm{M}\) stands for <i>molar</i>, where \(1\;\mathrm{M} = 1\;\mathrm{mole}/\mathrm{liter}\).)
+<ol class="parts">
+<li class="part">During a chemistry experiment, a separate mechanism is used to keep the concentration of \(\mathrm{A}\) constant at \(0.5\;\mathrm{M}\).  Use the rate constants given above to write a system of differential equations for the concentrations of substances \(\mathrm{B}\) and \(\mathrm{C}\) during the resulting reaction.
+</li>
+<li class="part">Use your equations from part (a) to find the equilibrium values for the concentrations of \(\mathrm{B}\) and \(\mathrm{C}\) during the experiment.</li>
+<li class="part">Find the eigenvalues of the Jacobian matrix for the equilibrium point you found in part&nbsp;(b).  Is this equilibrium a stable node, an unstable node, a saddle point, a stable focus, an unstable focus, or a center?</li>
+<li class="part">Suppose that the concentrations of both \(\mathrm{B}\) and \(\mathrm{C}\) are zero at the beginning of the experiment.  Use <code>NDSolve</code> in Mathematica to obtain graphs of the expected concentrations of \(\mathrm{B}\) and \(\mathrm{C}\) over the first ten minutes.</li>
+<li class="part">For the solution you plotted in part (d), what percentage of the molecules of substance \(\mathrm{B}\) that appeared during the ten-minute experiment were consumed by the second reaction?  What percentage were consumed by the third reaction?  What percentage have not yet been consumed?</li>
+</ol>
+</li>
+
+<li>The <b><i>finite difference method</i></b> is a numerical method used to solve certain partial differential equations.  For example, to solve the heat equation
+\[
+\frac{\partial T}{\partial t} \,=\, \frac{\partial^2 T}{\partial x^2}
+\]
+for \(0\leq x\leq x_{\text{max}}\) and \(0\leq t \leq t_{\text{max}}\) with intital temperature distribution \(T(x,0) = T_0(x)\), we start by choosing a number of steps \(M\) for \(x\) and \(N\) for \(t\), giving us step sizes of
+\[
+\Delta x \,=\, \frac{x_{\text{max}}}{M} \qquad\text{and}\qquad \Delta t = \frac{t_{\text{max}}}{N}.
+\]
+Let \(x_m = m\,\Delta x\) and \(t_n = n\,\Delta t\).  The initial temperature distribution \(T_0\) tells us the values of \(T(x_m,t_0)\) for all \(m\in\{0,\ldots,M\}\).  We can then estimate \(T(x_m,t_n)\) for \(n\geq 1\) recursively using the formula
+\[
+T(x_m,t_{n+1}) \,\approx\, T(x_m,t_n) + P(x_m,t_n)\,\Delta t
+\]
+where
+\[
+P(x_m,t_n) \,=\, \frac{T(x_{m-1},t_n) + T(x_{m+1},t_n) - 2 T(x_m,t_n)}{(\Delta x)^2} \qquad\text{for }0 < m < M,
+\]
+\[
+P(x_0,t_n) \,=\, \frac{T(x_1,t_n)-T(x_0,t_n)}{(\Delta x)^2} \qquad\text{and}\qquad P(x_M,t_n) \,=\, \frac{T(x_{M-1},t_n)-T(x_M,t_n)}{(\Delta x)^2}.
+\]
+<ol class="parts">
+<li class="part">Implement the finite difference method described above for \(0\leq x\leq 10\) and \(0\leq t\leq 2\) using the initial temperature distribution
+\[
+T_0(x) \,=\, 50+50\,\text{sin}\bigl(0.2\,x^2\bigr).
+\]
+Use \(M=100\) steps for \(x\) and \(N=1000\) steps for \(t\).  You can use either Mathematica or a spreadsheet such as Excel for this implementation.
+</li>
+<li class="part">Illustrate your solution from part (a) by making plots of the temperature distribution for the following values of \(t\): 0, 0.1, 0.2, 0.5, 1, and 2.  In each case, make sure that the vertical axis on your plot shows the entire range \(0\leq T\leq 100\).</li>
+<li class="part">What equilibrium temperature will this system approach as \(t\to\infty\)?  Explain.</li>
+</ol>
+</li>
+
+<b>Note:</b> Many students are finding this problem quite difficult, so I wanted to be clear about some ways that you can get some significant partial credit:
+<ul>
+<li>The problem asks you to use \(M=100\) and \(N=1000\).  If you can solve the problem with \(M=5\) and \(N=4\), this will be worth significant partial credit.  (You could potentially do this by hand, or in Excel or Mathematica without having to use <code>Do</code>.)</li>
+<li>Similar to the previous one, if you can get it to work for \(M=10\) and \(N=10\), this would be even better.</li>
+<li>Another possibility is to get the whole thing working for just one time step.  That is, if you can figure out \(T(x_m,t_1)\) for all \(m\), this will be worth partial credit.</li>
+</ul>
+If you go one of these routes, please be clear about which of the above conditions you have met, and try to solve (b) and (c) using the data that you do generate.</p>
+
+<p>One more piece of advice: If you feel like you are good with Excel, you might find it easier to solve this problem in Excel than in Mathematica. (Use one row for each value of \(t\) and one column for each value of \(x\).)</p>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

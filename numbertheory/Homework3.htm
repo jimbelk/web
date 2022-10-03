@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 3</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 3</h1>
+
+
+
+<p><b>Due Date: </b>Friday, February 19</p>
+
+
+<ol>
+
+
+<li> <ol class="parts">
+<li class="part">Write a program that, given two integers \(a\) and \(b\) (not both zero), uses the extended Euclidean algorithm to find integers \(x\) and \(y\) such that
+\[
+ax + by \,=\, \mathrm{gcd}(a,b).
+\]
+</li>
+<li class="part">Demonstrate your program from part (a) by finding integers \(x\) and \(y\) so that
+\[
+348153868589018633619876937115107\,x \,+\, 417313194961807259870190713481689\,y \;=\; 210209.
+\]
+</li>
+<li class="part">Write a program which takes as input the coefficients \((a,b,c)\) for a linear Diophantine equation
+\[
+ax + by \,=\, c,
+\]
+where \(\mathrm{gcd}(a,b) \mid c\), and outputs the solution \((x,y)\) for which \(x\) is nonnegative and as small as possible.  For example, the input \((57,92,17)\) should yield the solution \((81,-50)\), and the input \((56,119,28)\) should yield the solution \((9,-4)\).
+</li>
+<li class="part">Demonstrate your program from part (c) by finding the solution to the equation
+\[
+127330249286126071218855\,x \,+\, 141478053616390052813269\,y \;=\; 1984929
+\]
+for which \(x\) is nonnegative and as small as possible.
+</li>
+</ol>
+</li>
+
+<li>Given a pair \(a_1,a_2\) of positive integers with \(a_1>a_2\), the corresponding <b><i>Euclidean sequence</i></b> \(a_1,\ldots,a_n\) is the decreasing sequence defined recursively by the equation
+\[
+a_k \,=\, R(a_{k-2},a_{k-1})
+\]
+where \(R(a,b)\) denotes the remainder upon dividing \(a\) by \(b\).  The sequence ends when it reaches zero.  For example, the Euclidean sequence starting with \(a_1=194\) and \(a_2= 57\) is
+\[
+194,\;\;57,\;\;23,\;\; 11,\;\; 1,\;\; 0.
+\]
+Prove that the length of any Euclidean sequence is less than or equal to \(1+ 2\bigl\lceil\log_2(a_1)\bigr\rceil\).  (<i>Hint:</i> Show that \(a_k < a_{k-2}/2\) for each \(k > 2\).)
+</li>
+
+<li>If \(a\) is a positive integer and \(p\) is a prime, the <b><i>multiplicity of \(\boldsymbol{p}\) in \(\boldsymbol{a}\)</i></b> is defined by the formula
+\[
+n_p(a) \,=\, \max\{k \mid p^k\text{ divides }a\}.
+\]
+Use this notation to prove the following statements.  You should feel free to use any of the facts about \(n_p\) listed on the <a href="Homework3Facts.htm">&ldquo;Facts About \(n_p\)&rdquo; page</a>.
+<ol class="parts">
+<li class="part">Prove that
+\[
+\mathrm{lcm}(a,b,c) \,=\, \frac{abc\,\mathrm{gcd}(a,b,c)}{\mathrm{gcd}(a,b)\,\mathrm{gcd}(a,c)\,\mathrm{gcd}(b,c)}
+\]
+for all positive integers \(a\), \(b\), and \(c\).
+</li>
+<li class="part">Prove that
+\[
+\mathrm{lcm}\bigl(a,\mathrm{gcd}(b,c)\bigr) \,=\, \mathrm{gcd}\bigl(\mathrm{lcm}(a,b),\mathrm{lcm}(a,c)\bigr)
+\]
+for all positive integers \(a\), \(b\), and \(c\).
+</li>
+</ol>
+</li>
+
+<!--<li>
+<ol class="parts">
+<li class="part">For each \(n\geq 2\), prove that there exists an \(m\) that is divisible by all but one of the numbers \(1,2,\ldots,n\).</li>
+<li class="part">Use part (a) to prove that
+\[
+\frac{1}{2} \,+\, \frac{1}{3} \,+\, \cdots \,+\, \frac{1}{n}
+\]
+is not an integer for any \(n\geq 2\).
+</li>
+</ol>
+</li>-->
+
+
+<!--<li>Find all prime numbers \(p\) for which \(67p+9\) is a perfect square.  Prove your answer.</li>
+
+<li>Find the smallest positive integer \(n\) for which \(n^2 + n + 41\) is not prime.</li>
+
+<li>If \(n > 1\) and \(n\) is composite, prove that there exist positive integers \(a\), \(b\), and \(c\) so that
+\[
+ab + ac + bc + 1 \,=\, n.
+\]
+</li>
+
+<li>If \(n > 4\) and \(n\) is composite, prove that \((n-1)!\) is divisible by \(n\).
+</li>
+-->
+
+<!-- <li>Prove that every integer \(n \geq 12\) is the sum of two composite numbers.
+</li>
+-->
+
+
+</li>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

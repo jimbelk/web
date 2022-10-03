@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../mainpages.css">
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<TITLE>Jim Belk - Number Theory</TITLE>
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University of St Andrews</span>
+</div>
+
+<div class="wholedoc">
+
+<img class="a" style="max-width:40%" src="Picture.png"/>
+<h1>Number Theory</h1>
+
+I developed an upper-level number theory course for <a href="https://www.bard.edu/" target="_blank">Bard College</a> which I taught in the spring of 2016. This page contains information about this course.
+
+<h2>Summary</h2>
+The course was designed for a mix of students interested in pure and applied mathematics, and covered both theoretical topics (such as the classification of finite fields and the proof of quadratic reciprocity using Gauss sums) and applied topics (such as primality tests, the RSA cryptosystem, and Diffie&ndash;Hellman key exchange).  Most of the students were sophomore, junior, or senior mathematics majors and had some programming experience.
+
+<p>The textbook for the course was <i>An Introduction to Number Theory with Cryptography</i> by Kraft and Washington.</p>
+
+<h2>Homework Assignments</h2>
+Here are the weekly homework assignments for the course, which were worth 50% of the course grade. These assignments are a mixture of problem-solving, formal proofs, and computer analysis in SageMath or Mathematica. Students were encouraged to work together on the homework but were required to write up their own solutions individually in LaTeX.
+<ul>
+<li><a href="Homework1.htm" target="_blank">Homework 1</a> (Recursive Sequences, Primes that are 3 Modulo 4)
+<li><a href="Homework2.htm" target="_blank">Homework 2</a> (Greatest Common Divisors, Sieve of Eratosthenes, Euclidean Algorithm)
+<li><a href="Homework3.htm" target="_blank">Homework 3</a> (Extended Euclidean Algorithm, Linear Diophantine Equations)
+<li><a href="Homework4.htm" target="_blank">Homework 4</a> (Rational and Irrational Numbers, Factorial Digits)
+<li><a href="Homework5.htm" target="_blank">Homework 5</a> (Repeated Squares, Multiplicative Inverses, Euler's Theorem)
+<li><a href="Homework6.htm" target="_blank">Homework 6</a> (Chinese Remainder Theorem, Euler's Totient Function)
+<li><a href="Homework7.htm" target="_blank">Homework 7</a> (The RSA Cryptosystem)
+<li><a href="Homework8.htm" target="_blank">Homework 8</a> (Cyclotomic Polynomials, Orders of Elements in Finite Fields)
+<li><a href="Homework9.htm" target="_blank">Homework 9</a> (Fermat Primality Test, Primitive Elements, Diffie&ndash;Hellman Key Exchange)
+<li><a href="Homework10.htm" target="_blank">Homework 10</a> (Discrete Logarithms, Quadratic Reciprocity, 
+<li><a href="Homework11.htm" target="_blank">Homework 11</a> (Polynomials Over Fields, Lucas-Lehmer primality test)
+<li><a href="Homework12.htm" target="_blank">Homework 12</a> (Finite Fields, Primes that are 1 Modulo 4)
+</ul>
+
+
+<h2>Takehome Exams</h2>
+There were two takehome exams for the course, both of which were worth 20% of the grade.
+<ul>
+<li><a href="Midterm.htm" target="_blank">Takehome Midterm</a>
+<li><a href="FinalExam.htm" target="_blank">Takehome Final</a>
+</ul>
+
+<h2>Notes</h2>
+Though the course used a textbook, I supplemented this with notes on some more advanced theoretical material:
+<ul>
+<li><a href="CyclotomicPolynomials.pdf">Notes: Fields and Cyclotomic Polynomials</a></li>
+<li><a href="GaussSums.pdf">Notes: Gauss Sums</a></li>
+<li><a href="NumberTheoryPolynomials.pdf">Notes: Number Theory for Polynomials</a></li>
+<li><a href="FiniteFields.pdf">Notes: Finite Fields</a></li>
+<li><a href="MinimalPolynomials.pdf">Notes: Minimal Polynomials</a></li>
+<li><a href="ClassificationFiniteFields.pdf">Notes: Classification of Finite Fields</a></li>
+</ul>
+
+
+
+
+<br><br>
+<h1>Syllabus</h1>
+
+Here was the syllabus for the course.
+
+<a name="textbook"></a><h2><img class="a" style="width: 200px; max-width: 30%" src="KraftWashington.jpg"/>Textbook Information</h2>
+The textbook is <i>An Introduction to Number Theory with Cryptography</i> by Kraft and Washington.  You will need a copy of the textbook for reading and homework problems, though you do not need to bring it to class.  An electronic version of the book an be rented for <a href="http://www.amazon.com/Introduction-Number-Theory-Cryptography/dp/1482214415">$35 from Amazon.com</a>, or you can buy an electronic or paper version for&nbsp;$88.</p>
+
+<p>You may also find the free online textbook <a href="http://wstein.org/ent/"><i>Elementary Number Theory: Primes, Congruences, and Secrets</i></a> by Stein helpful, especially if you're planning to to use SageMath for computer programming.</p>
+
+<a name="description"></a><h2>Course Description</h2>
+This is a proofs-based introduction to number theory and cryptology.  Topics will be a mix of theoretical, computational, and applied number theory, and we will make significant use of computers to explore and test conjectures and implement number-theoretic and cryptological algorithms.  Possible topics include the fundamental theorem of arithmetic, congruences, public-key cryptosystems, quadratic reciprocity, factorization algorithms, Diophantine equations, continued fractions, and an introduction to elliptic curves.
+</p>
+
+<a name="description"></a><h2>Prerequisites</h2>
+The main prerequisite is Math&nbsp;261 (Proofs &amp; Fundamentals) or the equivalent.  The course will also assume some familiarity with computer programming, such as that obtained from CMSC&nbsp;143 (Object-Oriented Programming) or MATH&nbsp;323 (Dynamical Systems).  Some experience with abstract algebra (such as MATH&nbsp;332) may be helpful, but is not necessary.
+
+<a name="policies"></a><h2>Homework, Exams, and&nbsp;Grading</h2>
+
+<p><h4>Homework</h4>
+Homework assignments will be a mixture of formal proofs, problem-solving, and computer analysis. You are encouraged to work together on the homework, but you should write up your own solutions individually, and you must acknowledge any collaborators.
+</p>
+<p>All proofs must be written in LaTeX and submitted to me by e-mail.  Computer programs may be written in the language of your choice (e.g.&nbsp;SageMath or Mathematica) and their source code submitted via e-mail.</p>
+
+<p><h4>Final Project</h4>
+There will be a final project, on a topic of your choice. I am happy to allow group projects, though each member of a group must contribute as much effort as a student working individually. A typical project for a pair of students consists of a 10&ndash;15 minute class presentation as well as perhaps a computer program or a few pages of written proofs. More details on the final project will be given as we approach the end of the semester.
+
+<p><h4>Exams and Grading</h4>
+The grade will be based on the weekly homework, the takehome midterm exam, the takehome final exam, and the final project:</p>
+<div align=center>
+<table class="grid">
+<tr><td class="box">Homework</td> <td class="box">50%</td></tr>
+<tr><td class="box">Midterm Exam</td>     <td class="box">20%</td></tr>
+<tr><td class="box">Final Exam</td>     <td class="box">20%</td></tr>
+<tr><td class="box">Final Project</td> <td class="box">10%</td></tr>
+</table>
+</div>
+
+<h2>Project Information</h2>
+Part of the requirements for this class include a final project.  Here is some basic information about the project:
+<ul>
+<li>&bull; Though individual projects are allowed, I would prefer for you to work together in groups of two or three.</li>
+<li>&bull; The project must involve a short in-class computer presentation, of the following length:
+    <ul>
+    <li>&bull; Individual Project: 4&ndash;5 minute presentation</li>
+    <li>&bull; Two-Person Project: 8&ndash;10 minute presentation</li>
+    <li>&bull; Three-Person Project: 12&ndash;15 minute presentation</li>
+    </ul>
+    </li>
+<li>&bull; All projects must include a short paper, and may also involve a <i>Mathematica</i> or <i>SageMath</i> notebook.  For a purely theoretic project, the paper should be about 4-5 pages per person, and must include at least one proof.  Alternatively, you may include a significant Mathematica or SageMath notebook as part of your project, in which case your paper can be shorter (2-3 pages per person) and need not contain any proofs.
+</li>
+</ul>
+
+<h4>Project Topics</h4>
+Good topics include any aspect of number theory or crypotgraphy that we have not covered in class.  Some possibilities include:
+<ul>
+<li>&bull; A discussion or exploration of an open problem in number theory, such as the <a href="https://en.wikipedia.org/wiki/Abc_conjecture"><i>abc</i> conjecture</a>, the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>, the <a href="https://en.wikipedia.org/wiki/Goldbach%27s_conjecture">Goldbach conjectures</a>, <a href="https://en.wikipedia.org/wiki/Legendre%27s_conjecture">Legendre's conjecture</a>, the <a href="https://en.wikipedia.org/wiki/Catalan%27s_conjecture">Catalan's conjecture</a>, the <a href="https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture">Erdős–Straus conjecture</a>, the <a href="https://en.wikipedia.org/wiki/Congruent_number">congruent number problem</a>, or the <a href="https://en.wikipedia.org/wiki/Euler_brick">existence of a perfect cuboid</a>.</li>
+<li>&bull; A discussion and implementation of an important algorithm or cryptosystem that we did not get a chance to cover, such as <a href="https://en.wikipedia.org/wiki/Pseudorandom_number_generator">pseudorandom number generators</a> such as <a href="https://en.wikipedia.org/wiki/Linear_feedback_shift_register">linear feedback shift registers</a> or the <a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne twister</a>, the <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">Advanced Encryption Standard&nbsp;(AES)</a> (which is based on the <a href="https://en.wikipedia.org/wiki/Rijndael_S-box">Rijndael S-box</a>), <a href="https://en.wikipedia.org/wiki/Checksum">checksums</a> and the <a href="https://en.wikipedia.org/wiki/Luhn_algorithm">Luhn algorithm</a>, <a href="https://en.wikipedia.org/wiki/Error_detection_and_correction">error-correcting codes</a> such as the <a href="https://en.wikipedia.org/wiki/BCH_code">BHC code</a>, fast multiplication algorithms such as the <a href="https://en.wikipedia.org/wiki/Karatsuba_algorithm">Karatsuba algorithm</a>, the <a href="https://en.wikipedia.org/wiki/Sieve_of_Atkin">sieve of Atkin</a> for listing prime numbers, <a href="https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm">Pollard's rho algorithm</a> for integer factorization, the <a href="https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test">Miller-Rabin primality test</a>, <a href="https://en.wikipedia.org/wiki/Elliptic_curve_cryptography">elliptic curve cryptography</a>, <a href="https://en.wikipedia.org/wiki/Quantum_computing">quantum computing</a> and <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">Shor's algorithm</a>.</li>
+<li>&bull; A discussion of some theoretical topic that we did not get the chance to cover, including <a href="https://en.wikipedia.org/wiki/Continued_fraction">continued fractions</a>, <a href="https://en.wikipedia.org/wiki/P-adic_number"><i>p</i>-adic numbers</a>, <a href="https://en.wikipedia.org/wiki/Elliptic_curve">elliptic curves</a>, <a href="https://en.wikipedia.org/wiki/Primes_in_arithmetic_progression">primes in arithmetic progression</a> (including <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's theorem</a> and the <a href="https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem">Green-Tao theorem</a>), <a href="https://en.wikipedia.org/wiki/Egyptian_fraction">Egyptian fractions</a>, <a href="https://en.wikipedia.org/wiki/Chebyshev%27s_bias">Chebyshev's bias</a>, <a href="https://en.wikipedia.org/wiki/Bertrand%27s_postulate">Bertrand's postulate</a>, the <a href="https://en.wikipedia.org/wiki/Ulam_spiral">Ulam spiral</a>, <a href="https://en.wikipedia.org/wiki/Mills%27_constant">Mill's constant</a> and other <a href="https://en.wikipedia.org/wiki/Formula_for_primes">formulas for primes</a>, families of numbers such as <a href="https://en.wikipedia.org/wiki/Amicable_numbers">amicable numbers</a>, <a href="https://en.wikipedia.org/wiki/Abundant_number">abundant numbers</a>, <a href="https://en.wikipedia.org/wiki/Weird_number">weird numbers</a>, <a href="https://en.wikipedia.org/wiki/Deficient_number">deficient numbers</a>, and <a href="https://en.wikipedia.org/wiki/Superperfect_number">superperfect numbers</a>, and so forth.</li>
+<li>&bull; A discussion and/or implementation of anything related to <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public key infrastructure</a> or the real-world depolyment of cryptographic protocols.  Depending on the topic, this may or may not involve writing computer code.  Possible topics include <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Pretty Good Privacy</a> and the OpenPGP standard, <a href="https://en.wikipedia.org/wiki/Certificate_authority">certificate authorities</a> and <a href="https://en.wikipedia.org/wiki/Public_key_certificate">public-key certificates</a> (including possibly the <a href="https://en.wikipedia.org/wiki/X.509">X.509 standard</a>, or a discussion of <a href="https://en.wikipedia.org/wiki/Web_of_trust">webs of trust</a>), <a href="https://en.wikipedia.org/wiki/Cryptocurrency">crypotcurrencies</a> such as <a href="https://en.wikipedia.org/wiki/Bitcoin">bitcoin</a> and the associated <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">cryptographic hash functions</a>, <a href="https://en.wikipedia.org/wiki/Electronic_voting">electronic voting</a> and <a href="https://en.wikipedia.org/wiki/End-to-end_auditable_voting_systems">E2E systems</a>, <a href="https://en.wikipedia.org/wiki/Message_authentication_code">message authentication codes</a> (such as <a href="https://en.wikipedia.org/wiki/CMAC">CMAC</a>), and security of the <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a> (including the <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions">DNSSEC</a> protocol).</li>
+</ul>
+
+
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

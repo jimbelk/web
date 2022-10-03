@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 9</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 9</h1>
+
+
+
+
+<p><b>Due Date: </b>Saturday, November 19</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+<ol>
+
+<li>Consider the following system of differential equations.
+\[
+\frac{dx}{dt} \,=\, x^2-y,\qquad \frac{dy}{dt} \,=\, (x-1)(y-4)
+\]
+<ol class="parts">
+<li class="part">Use <code>VectorPlot</code> to make a plot of the vector field for this function in the range \(-3\leq x\leq 3\) and \(0\leq y \leq 6\).  You might want to add the option <code>VectorScale -> {Automatic, Automatic, None}</code> for this plot so that you can see the directions of the vectors more clearly.
+</li>
+<li class="part">The system of differential equations above has three different equilibrium solutions.  Find them.
+<li class="part">Use the eigenvalues of the Jacobian to classify each of the equilibria you found in part&nbsp;(b) as a stable node, unstable node, saddle point, stable focus, unstable focus, or center.
+</li>
+<li class="part">Use <code>VectorPlot</code> to make plots of the vector field in the vicinity of each equilibrium point (e.g.&nbsp;within a radius of 0.5 or so).  Do the results agree with your analysis from part&nbsp;(c)?
+</li>
+</ol>
+
+<li>Consider the following system of differential equations:
+\[
+\frac{dx}{dt} \,=\, -x-5y,\qquad\frac{dy}{dt} \,=\, 5x-y.
+\]
+<ol class="parts">
+<li class="part">Write this system as a single differential equation of the form
+\[
+\frac{d\mathbf{r}}{dt} \,=\, A\mathbf{r},
+\]
+where \(\mathbf{r}=(x,y)\) and \(A\) is a \(2\times 2\) matrix.
+</li>
+<li class="part">Find the eigenvalues of \(A\).  Based on these eigenvalues, what type of equilibirum is the point \((0,0)\) for this system?</li>
+<li class="part">Use the <code>VectorPlot</code> function in Mathematica to plot the vector field corresponding to this system in the range \(-1\leq x\leq 1\) and \(-1\leq y\leq 1\).
+</li>
+<li class="part">Use <code>NDSolve</code> in Mathematica to find the solution \(\mathbf{r}(t)\) (\(0\leq t \leq 5\)) for this system satisfying the initial condition \(\textbf{r}(0)=(1,0)\).  Make a <code>ParametricPlot</code> of the solution, using the <code>PlotRange -> All</code> option to make sure that the entire plot visible.</li>
+<li class="part">Recall that the polar coordinates \(r\) and \(\theta\) satisfy the equations
+\[
+x=r\cos\theta,\qquad y=r\sin\theta,\qquad r = \sqrt{x^2+y^2}.
+\]
+Use these formulas to show that
+\[
+\frac{dr}{dt} \,=\, \frac{1}{r}\left(x\frac{dx}{dt} + y\frac{dy}{dt}\right)\qquad\text{and}\qquad \frac{d\theta}{dt} \,=\, \frac{1}{r^2}\left(x\frac{dy}{dt}-y\frac{dx}{dt}\right).
+\]
+</li>
+<li class="part">Use the formulas in part (e) to convert the original system of differential equations involving \(x\) and \(y\) to a new system involving \(r\) and \(\theta\).</li>
+<li class="part">Find the general solution to your system in part (f), and show that the solution curves all have the form \(r=Ce^{k\theta}\) for some constants \(C\) and \(k\).</li>
+</ol>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

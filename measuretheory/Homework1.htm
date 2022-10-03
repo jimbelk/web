@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 1</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 1</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, February 5</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  All problems must be written in \(\LaTeX\), and you can turn in your homework assignment by e-mailing me a PDF of your solutions.</p>
+
+
+
+<ol>
+
+<li>The goal of this problem is to prove the following theorem regarding convergence of Fourier series.</p>
+<p>
+<b>Theorem.</b> <i>Let</i> \(\{a_n\}\) <i>be a decreasing sequence of real numbers that converges to</i> \(0\). <i>Then the Fourier series</i> \(\displaystyle\sum_{n=1}^\infty a_n\cos nx\) <i>converges pointwise for all</i> \(x\in\mathbb{R}\) <i>such that</i> \(\cos x \ne 1\).
+</p>
+
+<ol class="parts">
+      <li class="part"> Let \(a_1 \geq a_2 \geq \cdots \geq a_n \geq 0\), let \(b_1,\ldots,b_n\in\mathbb{R}\), and let \(S_k = b_1+\cdots+b_k\) for each \(k\).  Prove that
+    \[
+    |a_1b_1 + \cdots + a_nb_n| \,\leq\, a_1\max(|S_1|,\ldots,|S_n|)
+    \]
+      </li>
+<li class="part"> Let \(\{a_n\}\) be a decreasing sequence of real numbers converging to \(0\), and let \(\{b_n\}\) be a sequence of real numbers for which \(\sup_{n\in\mathbb{N}}|b_1+\cdots+b_n| < \infty\).  Prove that the series \(\displaystyle\sum_{n=1}^\infty a_nb_n\) converges.
+</li>
+<li class="part"> Prove that
+\[
+\sum_{n=1}^N \cos nx \;=\; \frac{{\cos}\,(N+1)x \,-\, \cos Nx \,-\, \cos x \,+\, 1}{2(\cos x \,-\, 1)}
+\]
+for all \(N\in\mathbb{N}\) and all \(x\in\mathbb{R}\) for which \(\cos x \ne 1\).
+</li>
+<li class="part"> Prove the theorem.
+</li>
+</ol>
+</li>
+
+
+<li> Let \(f\colon [a,b]\to\mathbb{R}\) be a function.  We say that \(f\) is <i><b>uniformly differentiable</b></i> on \([a,b]\) if for every \(\epsilon > 0\) there exists a \(\delta > 0\) so that
+    \[
+    0 < |x-y| < \delta \qquad\Rightarrow\qquad \left|\,\frac{f(y)-f(x)}{y-x} - f'(x)\,\right| < \epsilon
+    \]
+    for all \(x,y\in [a,b]\).  Prove that \(f\) is uniformly differentiable on \([a,b]\) if and only if \(f\) is continuously differentiable on \([a,b]\).
+</li>
+
+<li>Let \(f\colon \mathbb{R}\to\mathbb{R}\) and \(g\colon [a,b]\to\mathbb{R}\) be continuous functions.  The <b><i>convolution</i></b> of \(f\) and \(g\) is the function \(f\ast g\colon\mathbb{R}\to\mathbb{R}\) defined by
+    \[
+    (f\ast g)(x) \;=\; \int_a^b f(x-t)\,g(t)\,dt.
+    \]
+ <ol class="parts">
+      <li class="part"> Prove that \(f\ast g\) is continuous.
+      </li>
+<li class="part"> Suppose \(f\) is continuously differentiable.  Prove that \(f\ast g\) is differentiable, with \((f\ast g)' = f'\ast g\).
+      </li>
+</ol>
+
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Takehome Final</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Takehome Final</h1>
+
+
+<p><b>Due Date: </b>Friday, December 18 (at midnight)</p>
+
+<p><b>Rules: </b>This is a final exam, not a homework assignment. You must solve the problems
+entirely on your own, and you should not discuss the problems with any other students
+in the class, or with anyone on the internet. Most of these problems require the use of
+<i>Mathematica</i>, and you should feel free to use <i>Mathematica</i>'s online help system, as well as
+other <i>Mathematica</i> resources available on the web.</p>
+
+<p><b>Note: </b>For all questions, please make sure to fully explain the method you used to find the answer, and include any <i>Mathematica</i> code that was helpful.  Feel free to use multiple notebooks to organize your work, but make sure to send me all of your notebooks.</p>
+
+<ol>
+<li>Let \(f\colon\mathbb{C}\to\mathbb{C}\) be the function \(f(z)=z^2-1\), let \(J\) be the Julia set for \(f\), and let
+<p style="text-align: center">
+<span style="margin-right:40px">\(\displaystyle p \,=\, \frac{1-\sqrt{5}}{2}\)</span> and <span style="margin-left:40px">\(\displaystyle q \,=\, \frac{-1+\sqrt{5}}{2}\).</span>
+</p>
+Then \(p\) and \(q\) partition \(J\) into four pieces \(\mathsf{L}\), \(\mathsf{R}\), \(\mathsf{T}\), and \(\mathsf{B}\), as shown below.
+<img class="centered" width="400" src="FinalExamJuliaSet.png" />
+<b>Note:</b> The notebook <a href="FinalExamJuliaSet.nb"><code>FinalExamJuliaSet.nb</code></a> contains a list of 9,642 points from \(J\). This should be helpful for making pictures of the Julia set.
+<ol class="parts">
+<li class="part"> Use <code>GraphPlot</code> to draw the transition graph for \(\mathsf{L}\), \(\mathsf{R}\), \(\mathsf{T}\), and \(\mathsf{B}\) under the map \(f\).
+</li>
+<li class="part"> Draw a picture of \(J\) showing the eight level-two pieces (\(\mathsf{RR}\), \(\mathsf{RT}\), etc.). Mark each of the four breakpoints with a red dot, and use the <code>Text</code> command to label each piece with its two-step itinerary.
+</li>
+<li class="part"> Find the point on the Julia set with itinerary \(\overline{\mathsf{TLR}}\), correct to six decimal places. Draw a picture of \(J\) showing the location of this point, as well as the other two points in its orbit.
+</li>
+<li class="part"> Find the Lyapunov number of the point \(\overline{\mathsf{TLR}}\) you found in part (c), and use it to determine whether the corresponding 3-cycle is attracting or repelling.
+</li>
+</ol>
+</li>
+
+<li>Consider the functions \(f\), \(g\), \(h\), and \(k\) whose graphs are shown below.
+<p style="text-align: center">
+<img style="margin-right:60px" width="130" src="FinalExamGraphF.png"/>
+<img style="margin-right:60px" width="130" src="FinalExamGraphG.png"/>
+<img style="margin-right:60px" width="130" src="FinalExamGraphH.png"/>
+<img width="130" src="FinalExamGraphK.png"/>
+</p>
+Of these four functions, exactly one pair of them are topologically conjugate.  Determine which two are conjugate, and find a formula for the conjugating homeomorphism.
+</li>
+
+<li>Let \(F = \{\textbf{f}_1,\textbf{f}_2,\textbf{f}_3\}\) be the following iterated function system on the plane, whose attractor is a Sierpinski right triangle:
+<p style="text-align: center">
+\(\displaystyle \textbf{f}_1(x,y) \,=\, \left(\frac{x}{2},\,\frac{y}{2}\right),\qquad\textbf{f}_2(x,y) \,=\, \left(\frac{x+1}{2},\,\frac{y}{2}\right),\qquad \displaystyle \textbf{f}_3(x,y) \,=\, \left(\frac{x}{2},\,\frac{y+1}{2}\right).\)
+</p>
+A <b>cycle</b> for \(F\) is a periodic sequence that is possible as an orbit of the iterated function system (assuming the correct random choices). For example, a 3-cycle would be a possible orbit for \(F\) of the form
+\[
+\textbf{p}_1,\;\;\textbf{p}_2,\;\;\textbf{p}_3,\;\;\textbf{p}_1,\;\;\textbf{p}_2,\;\;\textbf{p}_3,\;\;\textbf{p}_1,\;\;\textbf{p}_2,\;\;\textbf{p}_3,\;\;\ldots
+\]
+<ol class="parts">
+<li class="part"> Find a 3-cycle for \(F\) such that \(\textbf{p}_1\) is in the top triangle, \(\textbf{p}_2\) is in the lower left triangle, and \(\textbf{p}_3\) is in the lower right triangle. Express the points as ordered pairs of fractions.
+</li>
+<li class="part">The picture below shows the points of a certain 7-cycle for \(F\). (Click on the picture to enlarge.)  Find the coordinates of the seven points of the
+cycle. Express your answers as ordered pairs of fractions.
+<a href="FinalExamTriangleLarge.png"><img class="centered" width="256" src="FinalExamTriangle.png" /></a>
+</li>
+</ol>
+</li>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

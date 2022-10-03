@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 3</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 3</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, September 16</p>
+
+
+
+<p><b>Instructions: </b>Feel free to work together with other students in the class, though you must turn in your own copy of the solutions, and you must acknowledge anyone that you worked with.  You can turn in your homework assignment by e-mailing me your solutions.</p>
+
+
+
+<ol>
+
+<li>The file <a href="MammalData.xlsx">MammalData.xlsx</a> contains data for the body weight, brain weight, life span, and gestation period for 55 different species of mammals.  (This famous data set was assembled for the paper <a href="AllisonCicchetti.pdf">Allison, Truett, and Domenic V. Cicchetti. &ldquo;Sleep in mammals: ecological and constitutional correlates.&rdquo; <i>Science</i> <b>194.4266</b> (1976): 732&ndash;734</a>.)
+<ol class="parts">
+<li class="part">Make a log-log scatter plot of brain weight vs. body weight for mammals in the data set.  Find the linear regression line for the log-log data and add it to the plot.  What is the exponent of the allometric scaling law for brain weight?</li>
+<li class="part">Repeat part (a) for life span vs. body weight and gestation period vs. body weight.  What are the associated allometric exponents?</li>
+</ol>
+</li>
+
+<li>In a growing organism, metabolic energy is used both to maintain existing cells and to create new cells.  We can model this relationship using the differential equation
+\[
+Y \,=\, Y_c\,N + E_c\frac{dN}{dt},
+\]
+where
+<ul>
+<li>\(Y\) is the metabolic rate of the organism,</li>
+<li>\(N\) is the number of cells of the organism,</li>
+<li>\(Y_c\) is the metabolic rate of each cell, and</li>
+<li>\(E_c\) is the amount of energy required to make a new cell.</li>
+</ul>
+Here \(Y\) and \(N\) vary over an organism's life, but \(Y_c\) and \(E_c\) are assumed to be constant.
+<ol class="parts">
+<li class="part">Briefly explain the significance of each of the terms in the differential equation above.  What does \(Y_c\,N\) represent?  What does \(E_c\dfrac{dN}{dt}\) represent?</li>
+<li class="part">Let \(M\) denote the mass of the growing organism.  Assuming \(Y = aM^{3/4}\) for some constant \(a\) (Kleiber's allometric law), show that \(M\) satisfies the differential equation
+\[
+E_c\frac{dM}{dt} \,=\, aM_c\, M^{3/4} - Y_c\,M
+\]
+where \(M_c\) represents the (constant) mass of each cell.</li>
+<li class="part">Use the differential equation in part (b) to find a formula for the adult mass \(M_{\mathrm{max}}\) of the organism in terms of \(a\), \(M_c\), and \(Y_c\).</li>
+<li class="part">Show that the differential equation in part (b) can be rewritten as
+\[
+\frac{dM}{dt} \,=\, 4k\,M^{3/4}\Bigl(M_{\mathrm{max}}^{1/4} - M^{1/4}\Bigr).
+\]
+where \(k = \dfrac{a\,M_c}{4\,M_{\mathrm{max}}^{1/4}\,E_c}\).
+</li>
+<li class="part">Use separation of variables to find the general solution to the equation in part&nbsp;(d).  This gives the <b>universal growth curve</b> that all organisms follow. (See <a href="OntogeneticGrowth.pdf">West, Geoffrey B., James H. Brown, and Brian J. Enquist. &ldquo;A general model for ontogenetic growth.&rdquo; <i>Nature</i> <b>413.6856</b> (2001): 628&ndash;631</a>.)
+</li>
+</ol>
+</ul>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
+/

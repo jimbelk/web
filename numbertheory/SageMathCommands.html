@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Number Theory in SageMath</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Number Theory in SageMath</h1>
+
+<ul>
+
+<li><a href="http://doc.sagemath.org/html/en/tutorial/tour_assignment.html"><i>a</i>&nbsp;<code>%</code>&nbsp;<i>m</i></a> computes <i>a</i>&nbsp;mod&nbsp;<i>m</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/reference/structure/sage/sets/primes.html"><code>Primes().unrank(</code><i>k</i><code>)</code></a> returns the <i>k</i>th prime number, starting with 2 at <i>k</i>&nbsp;=&nbsp;0.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/reference/structure/sage/sets/primes.html"><i>n</i><code> in Primes()</code></a> returns <code>True</code> if <i>n</i> is prime and <code>False</code> otherwise.
+
+<li><a href="http://doc.sagemath.org/html/en/reference/structure/sage/structure/factorization.html"><code>factor(</code><i>n</i><code>)</code></a> computes the prime factorization of&nbsp;<i>n</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/constructions/number_theory.html"><code>divisors(</code><i>n</i><code>)</code></a> returns a list of all of the positive divisors of&nbsp;<i>n</i>.
+
+<li><a href="http://doc.sagemath.org/html/en/constructions/number_theory.html"><code>number_of_divisors(</code><i>n</i><code>)</code></a> returns the number of positive divisors of&nbsp;<i>n</i>.
+
+<li><a href="http://doc.sagemath.org/html/en/tutorial/tour_numtheory.html"><code>euler_phi(</code><i>n</i><code>)</code></a> computes&nbsp;<i>&phi;</i>(<i>n</i>).
+
+<li><a href="http://doc.sagemath.org/html/en/tutorial/tour_numtheory.html"><code>gcd(</code><i>a</i><code>,</code><i> b</i><code>)</code></a> computes the greatest common divisor of <i>a</i> and&nbsp;<i>b</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/reference/categories/sage/categories/fields.html"><code>lcm(</code><i>a</i><code>,</code><i> b</i><code>)</code></a> computes the least common multiple of <i>a</i> and&nbsp;<i>b</i>.
+</li>
+
+<li><a href="https://reference.wolfram.com/language/ref/ExtendedGCD.html"><code>xgcd(</code><i>a</i><code>,</code><i> b</i><code>)</code></a> returns <code>(</code><i>a</i><code>,</code><i> m</i><code>,</code><i> n</i><code>)</code>, where <i>d</i> is the greatest common divisor of <i>a</i> and <i>b</i> and <i>m</i> and <i>n</i> are integers so that <i>am</i>&nbsp;+&nbsp;<i>bn</i>&nbsp;=&nbsp;<i>d</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/constructions/number_theory.html"><code>inverse_mod(</code><i>a</i><code>,</code><i> m</i><code>)</code></a> computes <i>a</i><sup>&minus;1</sup>&nbsp;mod&nbsp;<i>m</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/constructions/number_theory.html"><i>a</i><code>.powermod(</code><i>b</i><code>,</code><i> m</i><code>)</code></a> computes <i>a<sup>b</sup></i>&nbsp;mod&nbsp;<i>m</i>.
+</li>
+
+<li><a href="http://doc.sagemath.org/html/en/tutorial/tour_numtheory.html"><code>crt(</code><i>r</i><sub>1</sub><code>,</code><i> r</i><sub>2</sub><code>,</code><i> m</i><sub>1</sub><code>,</code><i> m</i><sub>2</sub><code>)</code></a> uses the Chinese remainder theorem to compute the smallest non-negative integer <i>n</i> satisfying <i>n</i>&nbsp;&equiv;&nbsp;<i>r</i><sub>1</sub>&nbsp;(mod&nbsp;<i>m</i><sub>1</sub>) and <i>n</i>&nbsp;&equiv;&nbsp;<i>r</i><sub>2</sub>&nbsp;(mod&nbsp;<i>m</i><sub>2</sub>).
+</li>
+
+
+</ul>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

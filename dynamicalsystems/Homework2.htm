@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 2</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 2</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, September 18</p>
+
+
+
+
+<p>Most of this assignment concerns the logistic family of functions introduced by biologist Robert May. For the following problems, let \(f(x) = cx(1-x)\), where \(x\) is always between \(0\) and \(1\), and \(c\) is a constant between \(2\) and \(4\).</p>
+
+
+<ol>
+<li> Write <i>Mathematica</i> code that draws cobweb plots for the function&nbsp;\(f\).  Your cobweb plots should include the graph of the function \(f\), the line \(y=x\), and the line segments of the cobweb, showing at least \(20\)&nbsp;iterations.  The notebook <a href="Homework2Commands.nb"><code>Homework2Commands.nb</code></a> illustrates some commands that may be helpful.</p>
+
+    <p>Demonstrate your code by drawing cobweb plots of the orbit of \(x_0=0.01\) for \(c=2.2\), \(c=2.8\), \(c=3.2\), and \(c=4\).
+
+
+
+</li>
+<li> Consider the case where \(c = 7/2\), so \(f(x) = \dfrac{7}{2}\,x(1-x)\).
+<ol class="parts">
+<li class="part"> Find the fixed points for \(f\), and use Theorem&nbsp;1.5 to show that they are both repelling.
+</li>
+<li class="part"> Use the <code>Solve</code> command to find the \(2\)-cycle for \(f\).  Express the points of the cycle as fractions.
+</li>
+<li class="part"> Use the Stability Test for Periodic Points to show that the \(2\)-cycle you found in part (b) is repelling.
+</li>
+<li class="part"> Does the function \(f\) have any attracting cycles at all?  Justify your answer.
+</li>
+</ol>
+
+
+
+</li>
+<li> <ol class="parts">
+<li class="part"> Suppose that, for a certain value of \(c\), the point \(1/2\) is periodic under&nbsp;\(f\).  Explain why, in this case, the cycle that contains \(1/2\) must be attracting.
+</li>
+<li class="part"> Use the <code>NSolve</code> command to find a value of \(c\) for which \(1/2\) is periodic with period&nbsp;\(3\).
+</li>
+<li class="part"> Use <code>NSolve</code> to find <b>three</b> different values of \(c\) for which \(1/2\) is periodic with period&nbsp;\(5\).
+</li>
+<li class="part"> Draw cobweb plots showing the orbit of \(1/2\) (not \(0.01\)) for each of the values of \(c\) you found in parts (b) and&nbsp;(c).
+</li>
+</ol>
+
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

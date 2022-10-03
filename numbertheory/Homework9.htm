@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 9</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 9</h1>
+
+
+
+<p><b>Due Date: </b>Friday, April 15</p>
+
+
+<ol>
+
+<li>The <b>Fermat primality test</b> uses the following procedure to check whether a number \(p\) is prime:
+<ul>
+<li>Choose a random number \(a\) between \(1\) and \(p-1\).</li>
+<li>Check whether \(a^{p-1} \equiv 1\;(\mathrm{mod}\;p)\).  If not, then \(p\) isn't prime.</li>
+</ul>
+A number \(p\) that passes several iterations of the Fermat test is very likely to be prime.
+<ol class="parts">
+<li class="part">Write a function <code>FermatTest</code> that uses ten iterations of the Fermat test to check whether a number is prime.</li>
+<li class="part">Use your function from part (a) to find the smallest prime number greater than \(10^{100}\).</li>
+<li class="part">Use your function from part (a) to find the smallest pair of twin primes greater than \(10^{100}\).</li>
+<li class="part">Use your function from part (a) to find the smallest Sophie Germain prime greater than \(10^{100}\).</li>
+</ol>
+</li>
+
+<li>
+<ol class="parts">
+<li class="part">Write a function <code>IsPrimitive</code> that takes a prime \(p\) and a number \(a\) as input and tests whether \(a\) is a primitive element modulo \(p\).  (Use a built-in SageMath or Mathematica function to factor \(p-1\).)</li>
+<li class="part">Use your program from part (a) to compute the smallest primitive element modulo 56647695441392941981.</li>
+</ol>
+</li>
+
+<li><ol class="parts">
+<li class="part">Write a function <code>DiscreteLog</code> that takes a prime \(p\), a primitive element \(g\), and a number \(h\) as input and uses brute force to search for a number \(a\) such that \(g^a \equiv h\;(\mathrm{mod}\;p)\).</li>
+<li class="part">You are eavesdropping on Alice and Bob as they use the Diffie-Hellman protocol to agree on a secret encryption key.  They decide to use the modulus \(2p+1\), where \(p = 851321\) is a Sophie Germain prime, and primitive element \(g=2\).  If Alice sends \(h_1 = 205593\) to Bob and Bob sends \(h_2 = 287047\) to Alice, what is their shared key?
+</li>
+</ol>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

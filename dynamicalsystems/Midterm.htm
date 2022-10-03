@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Takehome Midterm</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Takehome Midterm</h1>
+
+
+<p><b>Due Date: </b>Monday, October 26</p>
+
+<p><b>Rules: </b>This is a midterm exam, not a homework assignment. You must solve the problems
+entirely on your own, and you should not discuss the problems with any other students
+in the class, or with anyone on the internet. Most of these problems require the use of
+<i>Mathematica</i>, and you should feel free to use <i>Mathematica</i>'s online help system, as well as
+other <i>Mathematica</i> resources available on the web.</p>
+
+<p><b>Note: </b>For all questions, please make sure to fully explain the method you used to find the answer, and include any <i>Mathematica</i> code that was helpful.  Feel free to use multiple notebooks to organize your work, but make sure to send me all of your notebooks.</p>
+
+<ol>
+<li>
+<ol class="parts">
+<li class="part"> Use <code>NDSolve</code> and <code>ParametricPlot</code> to plot the first 50 seconds of the orbit of the point \((1,1)\) under the following dynamical system:
+<p style="text-align: center">
+<span style="margin-right:80px">\(\displaystyle\frac{dx}{dt} \;=\; -0.1x -y\),</span><span style="margin-right:0px">\(\displaystyle \frac{dy}{dt} \;=\; -0.1y+x\).</span>
+</p>
+</li>
+<li class="part"> Create a <code>Manipulate</code> that plots the first 50 seconds of an orbit of this dynamical system in the range \(-2\leq x \leq 2\) and \(-2\leq y \leq 2\), using a <code>Locator</code> to specify the initial state.
+</li>
+<li class="part"> Describe the dynamics of this system.  Are there any attractors?  Classify each attractor as a fixed point, a periodic cycle, or something else.
+</li>
+<li class="part"> Repeat parts (b) and (c) for the system
+<p style="text-align: center">
+<span style="margin-right:80px">\(\displaystyle\frac{dx}{dt} \;=\; x + y -x^3\),</span><span style="margin-right:0px">\(\displaystyle \frac{dy}{dt} \;=\; 0.5\bigl(1-x^2\bigr) -y\).</span>
+</p>
+</li>
+<li class="part"> Repeat parts (b) and (c) for the system
+<p style="text-align: center">
+<span style="margin-right:80px">\(\displaystyle\frac{dx}{dt} \;=\; 0.1\bigl(1-x^2-y^2\bigr)x-y\),</span><span style="margin-right:0px">\(\displaystyle \frac{dy}{dt} \;=\; 0.1\bigl(1-x^2-y^2\bigr)y + x\).</span>
+</p>
+</li>
+</ol>
+</li>
+
+
+<li> Let \(f(x) = (1+c)x^3 - cx\), where \(c\) is a constant between 0 and 3.
+<ol class="parts">
+<li class="part"> Find any value of \(c\) for which the function \(f(x)\) has an attracting 4-cycle.
+</li>
+<li class="part"> Find any value of \(c\) for which the function \(f(x)\) has an attracting 3-cycle.
+</li>
+</ol>
+</li>
+
+
+<li> Let \(T\) be the tent map:
+\[
+T(x) \;=\; \begin{cases}2x & \text{if }0\leq x \leq 1/2,\\[3pt] 2 - 2x & \text{if }1/2 < x \leq 1.\end{cases}
+\]
+<i>Note: </i>The following three questions do not depend on one another, so you can work on them in any order.  For example, it's possible to solve part&nbsp;(c) without solving parts&nbsp;(a) or&nbsp;(b).
+<ol class="parts">
+<li class="part"> Find a point \(p\) such that \(0.4 < p < 0.4001\) and \(T^{14}(p)=0\).  Express your answer as a fraction in lowest terms.
+</li>
+<li class="part"> The point \(\dfrac{20}{3433}\) is periodic under \(T\).  What is its period?
+</li>
+<li class="part"> Find a point \(q\) in the orbit of \(\dfrac{20}{3433}\) such that \(0.7 < q < 0.701 \).  Express your answer as a fraction in lowest terms.
+</li>
+</ol>
+</li>
+
+<li> The notebook <a href="MidtermOrbit.nb"><code>MidtermOrbit.nb</code></a> contains a list of the first 1000 points in the orbit of 0.47 under a certain function \(f(x)\).  Find the formula for \(f(x)\).
+</li>
+
+<li> Let \(f(x)\) be the following function on the interval \([0,2]\).
+\[
+f(x) \;=\; \begin{cases}x+1 & \text{if } 0\leq x \leq 1, \\[3pt] 4-2x & \text{if } 1 < x \leq 2.\end{cases}
+\]
+For the following questions, express your answers as fractions in lowest terms.
+<ol class="parts">
+<li class="part"> Find a point \(p\in[0,2]\) whose orbit under \(f\) has Lyapunov number \(2\).
+</li>
+<li class="part"> Find a point \(q\in[0,2]\) whose orbit under \(f\) has Lyapunov number \(\sqrt{2}\).
+</li>
+<li class="part"> Find a point \(r\in[0,2]\) whose orbit under \(f\) has Lyapunov number \(\sqrt[5]{8}\).
+</li>
+</ol>
+</li>
+
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

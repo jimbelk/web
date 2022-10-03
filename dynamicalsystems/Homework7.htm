@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 7</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 7</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, November 6</p>
+
+
+
+<ol>
+<li> Let \(f\colon[0,1]\to[0,1]\) be the function \(f(x) = cx(1-x)\), where \(c\) is the smallest positive value for which \(1/2\) is periodic with period \(7\).
+<ol class="parts">
+<li class="part"> Determine the value of \(c\).  Your answer must be correct to six decimal places.
+</li>
+<li class="part"> The seven points in the orbit of \(1/2\) partition \([0,1]\) into eight intervals.  Use the <code>Plot</code> command to draw a graph of \(f\), adding <code>GridLines</code> so that it is possible to see how the eight intervals map to one another.
+</li>
+<li class="part"> Use <code>GraphPlot</code> to draw the transition graph for \(f\) with respect to these eight intervals.  Make sure that the vertex labels are shown in the graph, and include arrows along the edges to show the direction of each transition.
+</li>
+<li class="part"> Find the period-\(2\) points for \(f\), correct to six decimal places.  What are the itineraries of these points?
+</li>
+<li class="part"> Based on the transition graph, what is a possible itinerary for a period-\(4\) point for&nbsp;\(f\)?
+</li>
+<li class="part"> Based on the transition graph, does \(f\) have any points of period \(100\)?  Justify your answer.
+</li>
+</ol>
+
+
+
+</li>
+<li> The following picture shows a tree \(T\) in \(\mathbb{R}^2\) which is the union of four line segments \(\textsf{A}\), \(\textsf{B}\), \(\textsf{C}\), and \(\textsf{D}\):
+<img class="centered" width="270" src="Homework7Pict.png" />
+Let \(\mathbf{f}\colon T\to T\) be the continuous function with the following properties:
+<ul>
+<li> \(\mathbf{f}(0,0) = (0,0)\), \(\mathbf{f}(0,-1) = (3,0)\), \(\mathbf{f}(1,0) = (0,1)\), \(\mathbf{f}(0,1) = \mathbf{f}(3,0) = (0,-1)\).
+</li>
+<li> \(\mathbf{f}\) maps \(\mathsf{A}\) linearly onto \(\textsf{C}\cup\textsf{D}\) (stretching by a factor of&nbsp;\(3\)), rotates \(\textsf{B}\) onto \(\textsf{A}\), rotates \(\textsf{C}\) onto \(\textsf{B}\), and rotates \(\textsf{D}\) onto \(\textsf{A}\cup\textsf{B}\).
+</li>
+</ul>
+<ol class="parts">
+<li class="part"> Use <code>GraphPlot</code> to draw a transition graph for&nbsp;\(\mathbf{f}\) with respect to the line segments \(\textsf{A}\), \(\textsf{B}\), \(\textsf{C}\), and&nbsp;\(\textsf{D}\).
+</li>
+<li class="part"> Based on the transition graph, how many period-\(5\) points does \(\mathbf{f}\) have?  List the itineraries of these points.
+</li>
+<li class="part"> Find a formula for \(\mathbf{f}(x,y)\) on each of the segments \(\textsf{A}\), \(\textsf{B}\), \(\textsf{C}\), and \(\textsf{D}\).
+</li>
+<li class="part"> Find the coordinates of the period-\(3\) point with itinerary \(\overline{\textsf{DBA}}\).
+</li>
+</ol>
+
+
+
+</li>
+<li> Recall that the <b><i>torus</b></i> \(T\) is the space of all ordered pairs \((\theta,\phi)\), where \(\theta\) and \(\phi\) are angles between \(0\) and&nbsp;\(2\pi\).  Let \(\textsf{A}\), \(\textsf{B}\), \(\textsf{C}\), and \(\textsf{D}\) be the following four triangles on the torus:
+    <img class="centered" width="220" src="Homework7TorusPict.png" />
+Let \(\mathbf{f}\colon T\to T\) be the function \(\mathbf{f}(\theta,\phi) = (\theta-\phi,\theta+\phi)\), where the result is interpreted as a point on the torus, e.g.&nbsp;\(\mathbf{f}(\pi,3\pi/2) = (-\pi/2,5\pi/2) = (3\pi/2,\pi/2)\).
+<ol class="parts">
+<li class="part"> Set up a <code>Manipulate</code> of a <code>ListLinePlot</code> showing orbits of \(\mathbf{f}\) in the square. Use a <code>Locator</code> to specify the initial state, and use <code>Show</code> to superimpose the two diagonals of the square onto the plot.  Based on your <code>Manipulate</code>, how would you describe the dynamics of this function?
+</li>
+<li class="part"> Use <code>GraphPlot</code> to draw the transition graph for \(\mathbf{f}\) with respect to the four triangles&nbsp;\(\textsf{A},\textsf{B},\textsf{C},\textsf{D}\).
+</li>
+<li class="part"> Use <code>Graphics</code> to draw a picture (similar to the one above) showing the eight triangles in the square that correspond to two-step itineraries, with each triangle labeled by the appropriate itinerary.
+</li>
+<li class="part"> Based on the transition graph, how many points of period \(3\) are there for&nbsp;\(\mathbf{f}\,\)?  List their itineraries.
+</li>
+<li class="part"> Find a formula for \(\mathbf{f}(\theta,\phi)\) on each of the triangles \(\textsf{A}\), \(\textsf{B}\), \(\textsf{C}\), and \(\textsf{D}\).
+</li>
+<li class="part"> Find the coordinates of the period-two point with itinerary \(\overline{\textsf{AD}}\).  Your answer should be precise (not a decimal approximation).
+</li>
+</ol>
+
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

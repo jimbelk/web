@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 3</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 3</h1>
+
+
+
+
+
+ <p><b>Due Date: </b>Friday, September 25</p>
+
+<p> For this assignment, let \(f(x) = 4x(1-x)\).</p>
+
+<ol>
+<li>
+<ol class="parts">
+<li class="part"> Create a function <code>itin</code> that takes a number \(x_0\) as input and outputs a list of the first 10 symbols in the itinerary of \(x_0\) under&nbsp;\(f\). For example, <code>itin[0.1]</code> should output <code>{L,L,R,L,R,R,R,L,L,R}</code>.  You may find the <code>If</code> function helpful for generating each <code>L</code> or <code>R</code>.
+</li>
+<li class="part"> Demonstrate your function from part (a) by computing the first 10 symbols in the itinerary for 0.3.
+</li>
+<li class="part"> Use your function from part (a) together with the <code>Manipulate</code> command to find a point \(x\in[0,1]\) whose itinerary begins with \(\mathsf{L}\,\mathsf{R}\,\mathsf{L}\,\mathsf{L}\,\mathsf{L}\,\mathsf{R}\,\mathsf{L}\,\mathsf{R}\,\mathsf{R}\,\mathsf{L}\).
+</li>
+</ol>
+
+
+</li>
+<li>
+<ol class="parts">
+<li class="part"> Find the point in \([0,1]\) whose itinerary under \(f\) is \(\overline{\textsf{R}}\) (i.e.&nbsp;\(\mathsf{R}\) repeating). Express your answer as a fraction.
+</li>
+<li class="part"> Find the points in \([0,1]\) whose itineraries under \(f\) are \(\overline{\textsf{LR}}\) and&nbsp;\(\overline{\textsf{RL}}\), respectively. Express your answers precisely using square roots.
+</li>
+<li class="part"> Find the endpoints of the \(\mathsf{LRR}\) interval for \(f\) (shown in Figure&nbsp;1.12 of the textbook).  Your answers must be correct to five decimal places.
+</li>
+<li class="part"> Find the point in \([0,1]\) whose itinerary under \(f\) is \(\overline{\textsf{LRR}}\).  Your answer must be correct to five decimal places.
+</li>
+<li class="part"> Draw cobweb plots showing the cycles you found in parts&nbsp;(b) and&nbsp;(d).
+</li>
+<li class="part"> Use the Stability Test for Periodic Points to determine whether these cycles are attracting or repelling.
+</li>
+</ol>
+
+
+</li>
+<li> Let \(n(k)\) denote the number of periodic points of \(f\) of period \(k\), and recall that
+\[
+n(k) \;=\; 2^k - \sum_{d} n(d).
+\]
+where \(d\) ranges over all proper divisors of&nbsp;\(k\).
+<ol class="parts">
+<li class="part"> Create a recursively defined function <code>numpoints</code> that takes a number \(k\) as input and outputs&nbsp;\(n(k)\).  You will probably find the <code>Sum</code>, <code>Most</code>, and <code>Divisors</code> commands helpful for this.
+</li>
+<li class="part"> Make a list of values of \(n(k)\) for \(k\) from \(1\) to \(20\). Does your function agree with our results from class?
+</li>
+</ol>
+
+</li>
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

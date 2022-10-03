@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 10</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 10</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, May 6</p>
+
+<p>Let \(C(T)\) be the set of all continuous, periodic functions \(\mathbb{R}\to\mathbb{R}\) with period \(2\pi\).  The convolution of functions in \(C(T)\) is defined as in <a href="Homework2.htm">Homework&nbsp;2</a>.</p>
+
+<p>Recall that a <b>trigonometric polynomial</b> is any polynomial function of \(\cos x\) and \(\sin x\).  Equivalently, a trigonometric polynomial is any function that can be written as a finite Fourier sum:
+\[
+f(x) \,=\, a + \sum_{k=1}^n \bigl(a_k \cos kx + b_k \sin kx\bigr).
+\]
+The goal of this assignment is to prove the following theorem.</p>
+
+<p><b>Theorem.</b> <i>Every function in \(C(T)\) is a uniform limit of trigonometric polynomials.</i></p>
+
+
+<ol>
+
+<li>Prove that if \(f\in C(T)\) is a trigonometric polynomial and \(g\in C(T)\), then \(f*g\) is a trigonometric polynomial.</li>
+
+
+<li>Let \(f \in C(T)\), and let \(\{g_n\}\) be a sequence in \(C(T)\) that satisfies the following conditions:
+<ul>
+<li>\(g_n \geq 0\) and \(\displaystyle\frac{1}{2\pi}\int_{-\pi}^{\pi} g_n(t)\,dt = 1\) for all \(n\).</li>
+<li>For each \(\epsilon>0\), the sequence \(\{g_n\}\) converges to \(0\) uniformly on \([-\pi,-\epsilon]\cup [\epsilon,\pi]\).</li>
+</ul>
+Prove that \(f*g_n \to f\) uniformly on \(\mathbb{R}\).
+</li>
+
+<li>Prove that there exists a constant \(C>0\) so that
+\[
+\int_{-\pi}^{\pi} \biggl(\frac{1 + \cos x}{2}\biggr)^{\!\!n}dx \,>\, \frac{C}{n}
+\]
+for all \(n\in\mathbb{N}\).
+</li>
+
+
+<li>Use the sequence
+\[
+g_n(x) \,=\, \frac{1}{c_n}\biggl(\frac{1+\cos x}{2}\biggr)^{\!\!n}\quad\text{where}\quad c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} \biggl(\frac{1+\cos x}{2}\biggr)^{\!\!n} dx
+\]
+to prove the given theorem.
+</li>
+
+<!--<li>A <b>dyadic interval</b> in \([0,1]\) is any interval of the form
+\[
+D_{k,n} = \left[\,\frac{k}{2^n},\;\frac{k+1}{2^n}\right)
+\]
+where \(n\) and \(k\) are non-negative integers and \(k< 2^n\).  For each dyadic interval, the corresponding <b>Haar wavelet</b> \(\psi_{n,k} \in L^2([0,1])\) is the function
+\[
+\psi_{n,k} \,=\, 2^{n/2}(\chi_{n+1,2k} \,-\, \chi_{n+1,2k+1})
+\]
+where \(\chi_{n,k}\) denotes the characteristic function of \(D_{n,k}\).
+<ol class="parts">
+<li class="part">Prove that the set
+\[
+H \,=\, \{\chi_{0,0}\} \cup \{\psi_{n,k} \mid n\geq 0\text{ and }0 \leq k < 2^n\}.
+\]
+is orthonormal in \(L^2([0,1])\)</li>
+<li class="part">Prove that the characteristic function \(\chi_{n,k}\) of each dyadic interval \(D_{n,k}\) lies in the span of \(H\).</li>
+<li class="part">Prove that \(H\) is a Hilbert basis for \(L^2([0,1])\)</li>
+</ol>
+-->
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
+

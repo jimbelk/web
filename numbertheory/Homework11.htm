@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 11</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 11</h1>
+
+
+
+<p><b>Due Date: </b>Friday, May 6</p>
+
+
+<ol>
+
+<li>Let \(\mathbb{F}\) be a field, and let \(p(x)\) and \(q(x)\) be relatively prime polynomials over \(\mathbb{F}\).  Prove that for every pair of polynomials \(a(x),b(x)\in \mathbb{F}[x]\), there exists a polynomial \(c(x)\in\mathbb{F}[x]\) so that for all \(f(x) \in \mathbb{F}[x]\),
+\[
+f(x) \,\equiv\, c(x)\;\bigl(\mathrm{mod}\;p(x)\,q(x)\bigr)
+\]
+if and only if
+\[
+f(x) \,\equiv\, a(x)\;\bigl(\mathrm{mod}\;p(x)\bigr)\qquad\text{and}\qquad f(x) \,\equiv\, b(x)\;\bigl(\mathrm{mod}\;q(x)\bigr).
+\]
+</li>
+
+
+
+<li>Define a sequence \(\{s_n\}\) of integers recursively by \(s_1=4\) and
+\[
+s_n\,=\, s_{n-1}^2 - 2
+\]
+for \(n\geq 2\).  The goal of this problem is to prove the following theorem.</p>
+
+<p><b>Theorem.</b> <i>Let \(p>2\) be prime.  If \(s_{p-1} \equiv 0\;(\mathrm{mod}\;2^p-1)\), then \(2^p-1\) is prime.</i></p>
+
+<p>This is known as the <b><i>Lucas-Lehmer primality test</i></b> for Mersenne primes.</p>
+<ol class="parts">
+<li class="part">Prove that for every prime \(q\), there exists a field \(\mathbb{F}\) with \(q^2\) elements such that \(3\) has a square root in \(\mathbb{F}\).
+</li>
+<li class="part">Let \(\mathbb{F}\) be a field, let \(r\) be a square root of \(3\) in \(\mathbb{F}\), and let \(\omega = 2+r\).  Prove that
+\[
+s_n \,=\, \omega^{2^{n-1}} + \omega^{-2^{n-1}}
+\]
+in \(\mathbb{F}\) for each \(n \in \mathbb{N}\).
+</li>
+<li class="part">Let \(\mathbb{F}\) be a field of characteristic \(q>2\), let \(\omega\in\mathbb{F}\), and let \(n\) be a positive integer.  Prove that \(\omega\) has order \(2^n\) in \(\mathbb{F}\) if and only if \(\omega^{2^{n-1}}=-1\).
+</li>
+<li class="part">Prove the theorem. (<i>Hint:</i> Consider the smallest prime \(q\) that divides \(2^p-1\).)
+</li>
+</li>
+</ol>
+
+<li>
+<ol class="parts">
+<li class="part">Write a function <code>LucasLehmerTest</code> that takes a prime \(p\) as input and checks whether \(p\) passes the test described in question&nbsp;2.</li>
+<li class="part">Find all primes less than 1000 that pass the test.</li>
+<li class="part">Exactly one of the following numbers is prime.
+\[
+2^{\large 44483}-1,\qquad 2^{\large 44491}-1,\qquad 2^{\large 44497}-1.
+\]
+Use your <code>LucasLehmerTest</code> function to determine which one.
+</li>
+</ol>
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../assignments.css">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+<TITLE>Homework 9</TITLE>
+
+
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<h1>Homework 9</h1>
+
+
+
+
+<p><b>Due Date: </b>Friday, April 22</p>
+
+
+
+<ol>
+
+
+<!--<li>Let \(p,q\in [1,\infty)\) so that \(1/p + 1/q = 1\). If \(f\) is an \(L^p\) function on \(\mathbb{R}\) and \(g\) is an \(L^q\) function on \(\mathbb{R}\), the <b>convolution</b> of \(f\) and \(g\) is the function \(f*g\colon \mathbb{R}\to\mathbb{R}\) defined by
+\[
+(f*g)(x) \,=\, \int_{\mathbb{R}} f(x-t)\,g(t)\,dm(t).
+\]
+<ol class="parts">
+<li class="part">
+Let \(\{f_n\}\) be sequence of \(L^p\) functions on \(\mathbb{R}\), let \(f\) be an \(L^p\) function on \(\mathbb{R}\), and suppose that \(\|f_n-f\|_p \to 0\) as \(n\to\infty\).  Show that \(f_n* g \to f* g\) pointwise for any \(L^q\) function \(g\).
+</li>
+</ol>
+</li>-->
+
+<li>Let \(V\) be a Banach space.  A function \(F\colon V\to V\) is called a <b>contraction map</b> if there exists an \(r\in(0,1)\) so that
+\[
+\|F(\mathbf{v}) - F(\mathbf{w})\| \,\leq\, r\,\|\mathbf{v} - \mathbf{w}\|
+\]
+for all \(\mathbf{v},\mathbf{w}\in V\). Prove that if \(F\colon V\to V\) is a contraction map then there exists a unique point \(\mathbf{v}_0 \in V\) such that \(F(\mathbf{v}_0) = \mathbf{v}_0\).
+</li>
+
+<li>Consider an initial value problem of the form
+\[
+y' \,=\, g(y),\quad y(0) = 0
+\]
+where \(g\colon\mathbb{R}\to\mathbb{R}\) is continuous, and suppose there exists a constant \(K>0\) so that
+\[
+|g(a)-g(b)| \,\leq\, K|a-b|
+\]
+for all \(a,b\in\mathbb{R}\).
+<ol class="parts">
+<li class="part">Let \(0<\epsilon < 1/K\), and let \(C([0,\epsilon])\) denote the Banach space of all continuous functions \([0,\epsilon]\to \mathbb{R}\) under the \(L^\infty\)-norm.  Prove that the function \(I\colon C([0,\epsilon])\to C([0,\epsilon])\) defined by
+\[
+I(f)(x) \,=\, \int_0^x \!g(f(t))\,dt
+\]
+is a contraction map.
+</li>
+<li class="part">Use part (a) together with question (1) to prove that the given initial value problem has a unique solution on the interval \([0,\epsilon]\).
+</li>
+</ol>
+</li>
+
+<li>Let \(f\colon \ell^1 \to \mathbb{R}\) be a continuous linear function.  Prove that there exists a bounded sequence \(\{a_n\}\) of real numbers such that
+\[
+f(\mathbf{v}) \,=\, \sum_{n=1}^\infty a_n v_n
+\]
+for every vector \(\mathbf{v} = (v_1,v_2,\ldots)\) in \(\ell^1\).
+</li>
+
+</ol>
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
+

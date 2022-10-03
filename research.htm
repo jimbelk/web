@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="mainpages.css">
+
+<style type="text/css">
+
+dd { padding-bottom: 4px; }
+
+dt {
+    float: left;
+    clear: left;
+    width: 50px;
+    text-align: left;
+  }
+
+dl {
+    text-indent: -40px;
+    padding-left: 40px;
+  }
+
+table {
+    border-collapse: collapse;
+    border: none;
+    border: 2px solid #DDDDDD;
+    }
+
+td {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+td { border-left: 2px solid #DDDDDD; }
+td:first-child { border-left: none; }
+
+a.red {
+    color: #882200;
+    font-weight: bold;
+    font-size: 110%;
+    }
+
+a.bold {
+    font-weight: bold;
+    }
+
+</style>
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<TITLE>Jim Belk - Research</TITLE>
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<div style="font-size:110%; margin-top: -0.4em; margin-bottom: 1.6em; line-height: 200%"><a href="index.htm">Home</a> | <a href="CVMain.htm">CV</a> | <span style="color: #666666">Research</span> | <a href="teaching.htm">Teaching</a> | <a href="talks.htm">Talks</a> | <a href="writing.htm">Writing</a> </div>
+
+
+<h1>Research</h1>
+
+My research is a mix of group theory, dynamical systems, and topology.</p>
+
+<a href="TreeComplex.png"><img class="flt" style="max-width: 40%" src="TreeComplex.png"/></a>
+<h2>Geometric Group Theory</h2>
+
+<p>My main research area is geometric group theory, which studies infinite discrete groups using tools from topology and geometry. Much of my work involves <a class="bold" href="https://www.ams.org/notices/201108/rtx110801112p.pdf" target="_blank">Thompson's groups</a> and their generalizations, as well as automata groups, hyperbolic groups, mapping class groups, and so forth.
+
+<p>Within group theory, I am interested in <a class="bold" href="https://en.wikipedia.org/wiki/Higman%27s_embedding_theorem">embeddings</a> between different groups as well as <a class="bold" href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.135.2827&rep=rep1&type=pdf">decision problems</a> such as the word problem and conjugacy problem.  Many of the groups I work with are infinite <a class="bold" href="https://en.wikipedia.org/wiki/Simple_group">simple&nbsp;groups</a> that have interesting cohomological <a class="bold" href="https://en.wikipedia.org/wiki/Finiteness_properties_of_groups">finiteness properties</a>.  Such groups usually act by homeomorphisms on compact spaces, and I often use ideas from <a class="bold" href="https://ems.press/journals/ggd">dynamical systems</a> to study these homeomorphisms.</p>
+
+
+
+<a href="MandelbrotSetLarge.png"><img class="flt" alt="The Mandelbrot set" style="max-width: 40%; clear: both;" src="MandelbrotSet.png"/></a>
+<h2>Complex Dynamics</h2>
+
+<p>I also do work in complex dynamics, which is the study of iterated holomorphic functions on the complex plane or Riemann sphere.  I am particularly interested in <a class="bold" href="https://www.cornell.edu/video/mitsuhiro-shishikura-thurstons-theorems-complex-dynamics">Thurston's theorem</a>, which characterizes the self-branched-covers of a sphere that are conjugate to rational maps.  This is related to <a class="bold" href="https://eprints.gla.ac.uk/101049/1/101049.pdf">mapping class groups</a> as well as the geometry of <a class="bold" href="https://hal.archives-ouvertes.fr/hal-00610715/document">Teichm&uuml;ller space</a>.</p>
+
+<p>I am also interested in the geometry and topology of the fractals that arise in complex dynamics, including <a class="bold" href="https://en.wikipedia.org/wiki/Julia_set" target="_blank">Julia sets</a> and the <a class="bold" href="https://en.wikipedia.org/wiki/Mandelbrot_set" target="_blank">Mandelbrot set</a>.  Bradley Forrest and I have two papers on discrete groups of homeomorphisms of Julia sets, and more recently we have been investigating the <a class="bold" href="https://doi.org/10.4171/022-2/64">quasiconformal geometry</a> of polynomial Julia sets.</p>
+
+
+<h2>Publications</h2>
+
+<p>See <a href="CVMain.htm#PublicationsAndPreprints">the publications section of my CV</a> for a concise list of my publications and preprints.</p>
+
+
+<table>
+<tr>
+<td style="width: 40%"><img style="max-width: 100%" src="TreeLifting.png"></td>
+<td style="text-align: left"><p><a class="red", href="https://arxiv.org/abs/1906.07680">Recognizing topological polynomials by lifting trees</a><br>
+with <a href="https://justinlanier.org/">Justin Lanier</a>, <a href="https://dmargalit7.math.gatech.edu/index.shtml">Dan Margalit</a>, and&nbsp;<a href="https://sites.google.com/site/rebeccawinarski/">Rebecca&nbsp;R.&nbsp;Winarski</a><br>
+Accepted to <i>Duke Math. J.</i></p>
+<p>This is my main complex dynamics paper.  We describe a tree-lifting algorithm that recognizes the Thurston class of a given topological polynomial.  The algorithm produces either the Hubbard tree for a polynomial in the same Thurston class, or the canonical obstruction if the given topological polynomial is obstructed.  Our proof solves Pilgrim's <a href="https://arxiv.org/abs/2102.12402">finite global attractors problem</a> for polynomials, and we demonstrate our methods by solving some generalizations of Hubbard's twisted rabbit problem.  Further applications of our methods have been given by <a href="https://arxiv.org/abs/2209.06154">Lanier and Winarski</a> and by <a href=https://arxiv.org/abs/2209.06099>Mukundan and Winarski</a>, and Jiang has <a href="https://doi.org/10.1016/j.topol.2022.108109">examined the geometry</a> of the complex of trees that we introduced.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 45%"><img style="max-width: 100%" src="QInTbar.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/2005.02036">Embedding Q into a finitely presented group</a><br>
+with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">James Hyde</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>Bull&nbsp;Am&nbsp;Math&nbsp;Soc</i> 59 (2022): 561&ndash;567</p>
+<p>We give the first explicit, natural example of a finitely presented group that contains the additive group Q of the rational numbers.  The finitely presented group in question consists of all &ldquo;lifts&rdquo; of elements of Thompson's group <i>T</i> to the real line.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="max-width: 100%" src="TwistedBrinThompson.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/2001.04579">Twisted Brin&ndash;Thompson groups</a>, with&nbsp;<a href="https://www.albany.edu/~mz498674/">Matthew&nbsp;C.B.&nbsp;Zaremsky</a><br>
+<i>Geom. Topol.</i> 26.3 (2022): 1189&ndash;1223</p>
+<p>We define a new family of infinite simple groups that generalizes <a href="https://arxiv.org/abs/math/0406046">Brin's higher-dimensional Thompson groups</a>, and we explore their finiteness properties.  Using this construction, we prove that every finitely generated group embeds isometrically into a finitely generated simple group, and that every &ldquo;Thompson-like&rdquo; group embeds into a finitely presented simple group.  We also exhibit a sequence of finitely presented simple groups that have arbitrary finiteness lengths. Matt Zaremsky has a <a href="https://arxiv.org/abs/2201.00711">follow-up paper</a> that explores these ideas further.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 30%"><img style="width: 100%" src="SierpinskiCarpet3.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1711.08369">Rational embeddings of hyperbolic groups</a><br>
+with&nbsp;<a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin&nbsp;Bleak</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>J. Comb. Algebra</i> 5.2 (2021): 123&ndash;183</p>
+<p>We describe a symbolic coding of the horofunction boundary of a hyperbolic group, and show that the group acts on the codes via asynchronous Mealy automata.  The codes arise from a self-similar structure on the tree of atoms for a hyperbolic group.  It follows that every hyperbolic group embeds into the &ldquo;rational group&rdquo; of all asynchronous automata <a href="http://mi.mathnet.ru/eng/tm/v231/p134">defined by Grigorchuk, Nekrashevych, and Sushchanski&#301;</a>.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 30%"><img style="width: 100%" src="RAAGBlockStack.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1602.08635">Embedding right-angled Artin groups into Brin&ndash;Thompson groups</a><br>
+with&nbsp;<a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin&nbsp;Bleak</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>Math. Proc. Cambridge Philos. Soc.</i> 169.2 (2020): 225&ndash;229</p>
+<p>We prove that every virtually special group embeds into a finitely presented simple group.  Virtually special groups are a large class of groups <a href="https://doi.org/10.1007/s00039-007-0629-4">defined by Haglund and Wise</a> that include all right-angled Artin groups, all Coxeter groups, and many hyperbolic groups.  To be specific, we show that all such groups embed into one of the higher-dimensional Thompson groups <i>nV</i> <a href="https://arxiv.org/abs/math/0406046">defined by Matthew Brin</a>.  Our bound on the dimension <i>n</i> was subsequently <a href="https://arxiv.org/abs/1611.06032">improved by Kato</a> and then <a href="https://arxiv.org/abs/2103.06663">improved further by Salo</a>.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 20%"><img style="width: 100%" src="AsynchronousAutomaton.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1711.01668">On the asynchronous rational group</a>,
+with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">James Hyde</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>Groups, Geom. Dyn.</i> 13.4 (2020): 1271&ndash;1284</p>
+<p>We prove that the &ldquo;rational group&rdquo; of all asynchronous Mealy automata <a href="http://mi.mathnet.ru/eng/tm/v231/p134">defined by Grigorchuk, Nekrashevych, and Sushchanski&#301;</a> is simple but not finitely generated. The rational group is interesting because it contains all self-similar groups as well as many Thompson-like groups, including the Lodha&ndash;Moore group and all R&ouml;ver&ndash;Nekrashevych groups.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="max-width: 100%" src="VicsekPicture.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1510.03133">Rearrangement groups of fractals</a>, with&nbsp;<a href="https://stockton.edu/sciences-math/faculty-staff/faculty-forrest.html">Bradley&nbsp;Forrest</a><br>
+<i>Trans Am Math Soc</i> 372.7 (2019): 4509&ndash;4552</p>
+<p>We define a new family of Thompson-like groups acting on a variety of fractal spaces, including many Julia sets as well as some self-similar fractals such as the Vicsek fractal.  We show that each of these groups acts on a naturally defined CAT(0) cubical complex, and that certain groups in this class have type&nbsp;F<sub>&infin;</sub>.  Matteo Tarocchi has <a href="https://arxiv.org/abs/2107.08744">subsequently examined</a> the structure of the rearrangement group for the airplane Julia set, and he and Davide Pergo <a href="https://arxiv.org/abs/2207.04235">have proven</a> that a class of rearrangement groups are not invariably generated.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="width: 100%" src="TuringMachineIn2V.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1510.03133">Some undecidability results for asynchronous transducers and the Brin&ndash;Thompson group&nbsp;2<i>V</i></a>, with&nbsp;<a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin&nbsp;Bleak</a><br>
+<i>Trans Am Math Soc</i> 369.5 (2017): 3157&ndash;3172</p>
+<p>We show that every complete, reversible Turing machine is conjugate as a dynamical system to an element of <a href="https://arxiv.org/abs/math/0406046">Brin's group&nbsp;2<i>V</i></a>.  We deduce that 2<i>V</i> has unsolvable order problem, i.e. there is no algorithm to decide whether a given element has finite order.  We also show that 2<i>V</i> can be represented as a group of asynchronous Mealy automata, and therefore the order problem for such automata is unsolvable as well.  Ville Salo has <a href="https://arxiv.org/abs/2011.07827">subsequently proven</a> that 2<i>V</i> also has unsolvable conjugacy problem.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 30%"><img style="width: 100%" src="RoversGroup.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1312.2282">R&ouml;ver's simple group is of type&nbsp;F<sub>&infin;</sub></a>, with&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>Publ. Mat.</i> 60.2 (2016): 501&ndash;552</p>
+<p>We prove that the finitely presented simple group <a href="https://doi.org/10.1006/JABR.1999.7898">constructed by Claas R&ouml;ver</a> from Thompson's group&nbsp;<i>V</i> and Grigorchuk's group has type&nbsp;F<sub>&infin;</sub>.  The proof involves constructing a polysimiplicial complex on which R&ouml;ver's group acts, and then using a combination of <a href="https://doi.org/10.1016/0022-4049(87)90015-6">Brown's criterion</a> and <a href="https://doi.org/10.1007/s002220050168">Bestvina&ndash;Brady Morse theory</a>.  This result was <a href="https://arxiv.org/abs/1709.06524">subsequently generalized</a> by Rachel Skipper and Matthew Zaremsky, and Volodymyr Nekrashevych has conjectured that it holds for all R&ouml;ver&ndash;Nekrashevych groups constructed from contracting self-similar groups.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 35%"><img style="max-width: 100%" src="BetaAction.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1201.4225">A Thompson group for the basilica</a>, with&nbsp;<a href="https://stockton.edu/sciences-math/faculty-staff/faculty-forrest.html">Bradley&nbsp;Forrest</a><br>
+<i>Groups, Geom. Dyn.</i> 9.4 (2015): 975&ndash;1000</p>
+<p>We define a Thompson-like group of homeomorphisms of the basilica Julia set, and we prove that this group is finitely generated, virtually simple, and bi&#8209;embeddable with Thompson's group&nbsp;<i>T</i>.  Matthew Zaremsky and Stefan Witzel have <a href="https://arxiv.org/abs/1603.01150">subsequently proven</a> that the basilica Thompson group is not finitely presented, and Mikhail Lyubich and Sergei Merenkov <a href="https://arxiv.org/abs/1612.08492">have shown</a> that this group acts on the basilica by quasisymmetries.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="width: 100%" src="Tricoloring.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://doi.org/10.1007/978-3-662-47709-0_1">The word problem for finitely presented quandles is undecidable</a><br>with&nbsp;<a href="https://www.bard.edu/faculty/details/?id=586">Robert&nbsp;McGrail</a><br><i>Logic, Language, Information, and Computation, WoLLIC 2015</i>, Springer, 2015, 1&ndash;13</p>
+<p><a class="red" href="https://doi.org/10.1109/SYNASC.2014.56">CSPs and connectedness: P/NP dichotomy for idempotent, right quasigroups</a>, with&nbsp;<a href="https://www.bard.edu/faculty/details/?id=586">Robert&nbsp;McGrail</a>, <a href="https://www.brandeis.edu/computer-science/phd/students.html">Solomon Garber</a>, <a href="https://www.bard.edu/faculty/details/?id=1789">Japheth Wood</a>, and&nbsp;<a href="https://ben.fish/">Benjamin Fish</a><br>
+<i>2014 16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing</i>, IEEE, 2014, 1&ndash;8</p>
+<p>These computer science publications are part of <a href="https://www.bard.edu/faculty/details/?id=586">Robert&nbsp;McGrail's</a> research program exploring constraint satisfaction problems in quandles.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 30%"><img style="width: 100%" src="AnnularStrandDiagram.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://dl.acm.org/doi/10.1145/2576802.2576823">Implementation of a solution to the conjugacy problem in Thompson's group&nbsp;<i>F</i></a>, with&nbsp;<a href="https://www.cs.rochester.edu/u/nhossain/">Nabil&nbsp;Hossain</a>, <a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a>, and&nbsp;<a href="https://www.bard.edu/faculty/details/?id=586">Robert&nbsp;McGrail</a><br>
+<i>ACM Commun. Comput. Algebra</i> 47.3/4 (2014): 120–121</p>
+<p><a class="red" href="https://ieeexplore.ieee.org/document/6821136">Deciding conjugacy in Thompson's group&nbsp;<i>F</i> in linear time</a><br>with&nbsp;<a href="https://www.cs.rochester.edu/u/nhossain/">Nabil&nbsp;Hossain</a>, <a href="https://www.bard.edu/faculty/details/?id=586">Robert&nbsp;McGrail</a>, and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>2013 15th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing</i>, IEEE, 2013, 1&ndash;8</p>
+<p>These computer science publications describe a Java implementation of the solution to the conjugacy problem in Thompson's group&nbsp;<i>F</i>, and include a proof that the algorithm has linear time complexity.</p>
+</td>
+</tr>
+</table>
+
+
+<br>
+
+<table>
+<tr>
+<td style="width: 20%"><img style="width: 100%" src="CylindricalStrandDiagram.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/0708.4250">Conjugacy and dynamics in Thompson's groups</a>, with&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
+<i>Geom. Dedicata</i> 169.1 (2014): 239&ndash;261</p>
+<p>We describe strand diagrams for elements of <i>F</i>, <i>T</i>, and <i>V</i>, and we use them to give a unified solution to the conjugacy problems in the three Thompson groups.  This includes the first known solution to the conjugacy problem in Thompson's group&nbsp;<i>T</i>.  Julio Aroca subsequently <a href="https://arxiv.org/abs/1807.09503">generalized our work</a> to a family of Thompson-like groups, and in a <a href="https://arxiv.org/abs/2101.10316" target="_blank">recent preprint</a> Matucci and I use strand diagrams to analyze conjugator lengths in Thompson's groups.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 20%"><img style="width: 100%" src="IteratedMonodromy.png"></td>
+<td style="text-align: left"><p><a class="red" href="http://www-personal.umich.edu/~kochsc/itmono.pdf">Iterated monodromy for a two-dimensional map</a>, with&nbsp;<a href="http://www-personal.umich.edu/~kochsc/">Sarah&nbsp;Koch</a><br>
+<i>In the Tradition of Ahlfors&nbsp;Bers, V</i>, 2010, 1&ndash;12, <i>Contemp. Math.</i> 510, AMS</p>
+<p>The paper is a mix of group theory and complex dynamics.  We compute the wreath recursion for the iterated monodromy group of a postcritically finite map on CP<sup>2</sup>, the first explicit computation of its kind.</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td style="width: 35%"><img style="width: 100%" src="NotMinimallyAlmostConvex.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/math/0301141">Thompson's group <i>F</i> is maximally nonconvex</a>, with&nbsp;<a href="https://www.math.uni-bielefeld.de/~bux/pg_e01.html">Kai&#8209;Uwe&nbsp;Bux</a><br>
+<i>Geometric Methods in Group Theory</i>, 2005, 131&ndash;146, <i>Contemp. Math.</i> 372, AMS</p>
+
+<p>This paper was a portion of my PhD thesis. We use forest diagrams to prove that balls in the Cayley graph of <i>F</i> are highly non-convex, a result with was subsequently <a href="https://nyjm.albany.edu/j/2007/13-19.html">generalized by Wladis</a>.  One consequence is that the Cayley graph of&nbsp;<i>F</i> contains isometrically embedded geodesic circles of arbitrary size.</p>
+</td>
+</tr>
+</table>
+
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="width: 100%" src="ForestDiagram.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/math/0305412">Forest diagrams for elements of Thompson's group <i>F</i></a>, with&nbsp;<a href="https://math.cornell.edu/kenneth-brown">Kenneth&nbsp;S.&nbsp;Brown</a><br>
+<i>Int J Algebra Comput</i> 15, no. 5&ndash;6 (2005): 815&ndash;850</p>
+
+<p>This paper was a portion of my PhD thesis. We describe forest diagrams for elements of Thompson's group <i>F</i>, which are particularly well-suited to studying the Cayley graph of&nbsp;<i>F</i> with respect to the {<i>x</i><sub>0</sub>,&nbsp;<i>x</i><sub>1</sub>} generating set.  Using forest diagrams, we give a simplified version of <a href="https://doi.org/10.1023/A:1024971818319">Fordham's length formula for&nbsp;<i>F</i></a>, and I use them in my PhD thesis to prove that the isoperimetric constant (or Cheeger constant) of <i>F</i> is at most&nbsp;1/2.</p>
+</td>
+</tr>
+</table>
+
+
+<br>
+
+<table>
+<tr>
+<td style="width: 25%"><img style="width: 100%" src="WordGraph.png"></td>
+<td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/0708.3609">Thompson's group <i>F</i></a><br>
+PhD thesis, Cornell University, 2004</p>
+
+<p>This was my PhD thesis under my advisor <a href="https://math.cornell.edu/kenneth-brown">Kenneth&nbsp;S.&nbsp;Brown</a>.  This starts with a fairly complete exposition of the basic theory of Thompson's group&nbsp;<i>F</i>.  In addition to material published elsewhere, this also includes a proof that the isoperimetric constant (or Cheeger constant) of <i>F</i> is at most&nbsp;1/2, a discussion of one-way forest diagrams, a description of word graphs for positive elements and anti-normal form, an introduction to strand diagrams for&nbsp;<i>F</i> and a description of a corresponding classifying space for&nbsp;<i>F</i> (later fleshed out by <a href="https://arxiv.org/abs/1306.6534">Sabalka and Zaremsky</a>), and a description of a system for constructing generalized Thompson groups using categories which is related to the <a href="https://arxiv.org/abs/1405.5491">cloning systems</a> developed by Witzel and Zaremsky.</p>
+</td>
+</tr>
+</table>
+
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
