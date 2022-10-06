@@ -177,7 +177,7 @@ with&nbsp;<a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb
 
 <table>
 <tr>
-<td style="width: 20%"><img style="width: 100%" src="AsynchronousAutomaton.png"></td>
+<td style="width: 25%"><img style="width: 100%" src="AsynchronousAutomaton.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1711.01668">On the asynchronous rational group</a>,
 with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">James Hyde</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
 <i>Groups Geom. Dyn.</i> 13.4 (2020): 1271&ndash;1284</p>
@@ -269,7 +269,7 @@ with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">Jame
 <td style="width: 20%"><img style="width: 100%" src="CylindricalStrandDiagram.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/0708.4250">Conjugacy and dynamics in Thompson's groups</a>, with&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
 <i>Geom. Dedicata</i> 169.1 (2014): 239&ndash;261</p>
-<p>We describe strand diagrams for elements of <i>F</i>, <i>T</i>, and <i>V</i>, and we use them to give a unified solution to the conjugacy problems in the three Thompson groups.  This includes the first known solution to the conjugacy problem in Thompson's group&nbsp;<i>T</i>.  Julio Aroca subsequently <a href="https://arxiv.org/abs/1807.09503">generalized our work</a> to a family of Thompson-like groups, and in a <a href="https://arxiv.org/abs/2101.10316" target="_blank">recent preprint</a> Matucci and I use strand diagrams to analyze conjugator lengths in Thompson's groups.</p>
+<p>We describe strand diagrams for elements of <i>F</i>, <i>T</i>, and <i>V</i>, and we use them to give a unified solution to the conjugacy problems in the three Thompson groups.  This includes the first known solution to the conjugacy problem in Thompson's group&nbsp;<i>T</i>.  Julio Aroca subsequently <a href="https://arxiv.org/abs/1807.09503">generalized our work</a> to a family of Thompson-like groups, and Gil Goffer and Waltraud Lederle used strand diagrams in their <a href="https://arxiv.org/abs/1911.01974">analysis of conjugacy</a> for almost automorphisms of trees.
 </td>
 </tr>
 </table>
