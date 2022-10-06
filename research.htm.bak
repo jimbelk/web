@@ -180,7 +180,7 @@ with&nbsp;<a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb
 <td style="width: 20%"><img style="width: 100%" src="AsynchronousAutomaton.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1711.01668">On the asynchronous rational group</a>,
 with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">James Hyde</a> and&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
-<i>Groups, Geom. Dyn.</i> 13.4 (2020): 1271&ndash;1284</p>
+<i>Groups Geom. Dyn.</i> 13.4 (2020): 1271&ndash;1284</p>
 <p>We prove that the &ldquo;rational group&rdquo; of all asynchronous Mealy automata <a href="http://mi.mathnet.ru/eng/tm/v231/p134">defined by Grigorchuk, Nekrashevych, and Sushchanski&#301;</a> is simple but not finitely generated. The rational group is interesting because it contains all self-similar groups as well as many Thompson-like groups, including the Lodha&ndash;Moore group and all R&ouml;ver&ndash;Nekrashevych groups.</p>
 </td>
 </tr>
@@ -193,7 +193,7 @@ with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">Jame
 <td style="width: 25%"><img style="max-width: 100%" src="VicsekPicture.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1510.03133">Rearrangement groups of fractals</a>, with&nbsp;<a href="https://stockton.edu/sciences-math/faculty-staff/faculty-forrest.html">Bradley&nbsp;Forrest</a><br>
 <i>Trans. Amer. Math. Soc.</i> 372.7 (2019): 4509&ndash;4552</p>
-<p>We define a new family of Thompson-like groups acting on a variety of fractal spaces, including many Julia sets as well as some self-similar fractals such as the Vicsek fractal.  We show that each of these groups acts on a naturally defined CAT(0) cubical complex, and that certain groups in this class have type&nbsp;F<sub>&infin;</sub>.  Matteo Tarocchi has <a href="https://arxiv.org/abs/2107.08744">subsequently examined</a> the structure of the rearrangement group for the airplane Julia set, and he and Davide Pergo <a href="https://arxiv.org/abs/2207.04235">have proven</a> that a class of rearrangement groups are not invariably generated.</p>
+<p>We define a new family of Thompson-like groups acting on a variety of fractal spaces, including many Julia sets as well as some self-similar fractals such as the Vicsek fractal.  We show that each of these groups acts on a naturally defined CAT(0) cubical complex, and that certain groups in this class have type&nbsp;F<sub>&infin;</sub>.  Matteo Tarocchi has <a href="https://arxiv.org/abs/2107.08744">subsequently examined</a> the structure of the rearrangement group for the airplane Julia set, and he and Davide Perego <a href="https://arxiv.org/abs/2207.04235">have proven</a> that a class of rearrangement groups are not invariably generated.</p>
 </td>
 </tr>
 </table>
@@ -214,7 +214,7 @@ with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">Jame
 
 <table>
 <tr>
-<td style="width: 30%"><img style="width: 100%" src="RoversGroup.png"></td>
+<td style="width: 35%"><img style="width: 100%" src="RoversGroup.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1312.2282">R&ouml;ver's simple group is of type&nbsp;F<sub>&infin;</sub></a>, with&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
 <i>Publ. Mat.</i> 60.2 (2016): 501&ndash;552</p>
 <p>We prove that the finitely presented simple group <a href="https://doi.org/10.1006/JABR.1999.7898">constructed by Claas R&ouml;ver</a> from Thompson's group&nbsp;<i>V</i> and Grigorchuk's group has type&nbsp;F<sub>&infin;</sub>.  The proof involves constructing a polysimiplicial complex on which R&ouml;ver's group acts, and then using a combination of <a href="https://doi.org/10.1016/0022-4049(87)90015-6">Brown's criterion</a> and <a href="https://doi.org/10.1007/s002220050168">Bestvina&ndash;Brady Morse theory</a>.  This result was <a href="https://arxiv.org/abs/1709.06524">subsequently generalized</a> by Rachel Skipper and Matthew Zaremsky, and Volodymyr Nekrashevych has conjectured that it holds for all R&ouml;ver&ndash;Nekrashevych groups constructed from contracting self-similar groups.</p>
@@ -228,7 +228,7 @@ with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">Jame
 <tr>
 <td style="width: 35%"><img style="max-width: 100%" src="BetaAction.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/1201.4225">A Thompson group for the basilica</a>, with&nbsp;<a href="https://stockton.edu/sciences-math/faculty-staff/faculty-forrest.html">Bradley&nbsp;Forrest</a><br>
-<i>Groups, Geom. Dyn.</i> 9.4 (2015): 975&ndash;1000</p>
+<i>Groups Geom. Dyn.</i> 9.4 (2015): 975&ndash;1000</p>
 <p>We define a Thompson-like group of homeomorphisms of the basilica Julia set, and we prove that this group is finitely generated, virtually simple, and bi&#8209;embeddable with Thompson's group&nbsp;<i>T</i>.  Matthew Zaremsky and Stefan Witzel have <a href="https://arxiv.org/abs/1603.01150">subsequently proven</a> that the basilica Thompson group is not finitely presented, and Mikhail Lyubich and Sergei Merenkov <a href="https://arxiv.org/abs/1612.08492">have shown</a> that this group acts on the basilica by quasisymmetries.</p>
 </td>
 </tr>
@@ -306,7 +306,7 @@ with <a href="https://www.math.ku.dk/english/staff/?pure=en/persons/759682">Jame
 <tr>
 <td style="width: 25%"><img style="width: 100%" src="ForestDiagram.png"></td>
 <td style="text-align: left"><p><a class="red" href="https://arxiv.org/abs/math/0305412">Forest diagrams for elements of Thompson's group <i>F</i></a>, with&nbsp;<a href="https://math.cornell.edu/kenneth-brown">Kenneth&nbsp;S.&nbsp;Brown</a><br>
-<i>Int J Algebra Comput</i> 15, no. 5&ndash;6 (2005): 815&ndash;850</p>
+<i>Internat. J. Algebra Comput.</i> 15, no. 5&ndash;6 (2005): 815&ndash;850</p>
 
 <p>This paper was a portion of my PhD thesis. We describe forest diagrams for elements of Thompson's group <i>F</i>, which are particularly well-suited to studying the Cayley graph of&nbsp;<i>F</i> with respect to the {<i>x</i><sub>0</sub>,&nbsp;<i>x</i><sub>1</sub>} generating set.  Using forest diagrams, we give a simplified version of <a href="https://doi.org/10.1023/A:1024971818319">Fordham's length formula for&nbsp;<i>F</i></a>, and I use them in my PhD thesis to prove that the isoperimetric constant (or Cheeger constant) of <i>F</i> is at most&nbsp;1/2.</p>
 </td>
