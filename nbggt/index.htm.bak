@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<!--<base href="https://jimbelk.github.io/web/">-->
+
+<style>
+.jimpicture { width: 220px; overflow: hidden; float: left; margin-right: 3vw; margin-bottom: 1em; max-width: 80%; }
+</style>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../mainpages.css">
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<TITLE>NBGGT Glasgow</TITLE>
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<!--<div class="header">
+<span class="coursetitle">North British Geometric Group Theory Seminar</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>-->
+
+<div class="wholedoc">
+
+
+<h1 style="margin-top: 0.5em; text-align: center; font-size: 260%">North British Geometric Group Theory Seminar</h1>
+<h2 style="margin-top: 1.2em; text-align: center; margin-bottom: 1.8em">University of Glasgow, 21 April 2023</h2>
+
+<img width="100%" src="BigGlasgowPicture.jpg"/>
+
+<h1 style="margin-top: 1.5em; margin-bottom: 0em">Speakers</h1>
+
+<table style="width: 100%; text-align: left">
+<tr>
+<td style="width: 33%; border-style: none; text-align: left">
+<h2><a href="https://www.dpmms.cam.ac.uk/~mcr59/">Macarena Arenas</a></h2>
+<p>University of Cambridge</p>
+</td>
+<td style="width: 33%; border-style: none; text-align: left">
+<h2><a href="https://www.mmagee.net/">Michael Magee</a></h2>
+<p>Durham University</p>
+</td>
+</td>
+<td style="width: 33%; border-style: none; text-align: left">
+<h2><a href="https://sites.google.com/site/francescomatucci/">Francesco Matucci</a></h2>
+<p>University of Milano&ndash;Bicocca</p>
+</td>
+</tr>
+</table>
+
+
+<h1 style="margin-top: 1em; margin-bottom: 0.5em">Timetable</h1>
+<p>All talks will be held in the Mathematics and Statistics Building (<a href="https://goo.gl/maps/DWffc3KFDAHPAmqz7">map</a>), room ???.</p>
+
+<table style="width: 100%; text-align: left; border-style: none">
+<tr style="padding: 100px">
+<td style="text-align: left; border-style: none">
+1.30 &ndash; 2.30 pm: First Talk
+</td>
+</tr>
+<tr>
+<td style="text-align: left; border-style: none">
+2.45 &ndash; 3.45 pm: Second Talk
+</td>
+</tr>
+<tr>
+<td style="text-align: left; border-style: none">
+3.45 &ndash; 4.30 pm: Tea
+</td>
+</tr>
+<tr>
+<td style="text-align: left; border-style: none">
+4.30 &ndash; 5.30 pm: Third Talk
+</td>
+</tr>
+</table>
+
+
+<h1 style="margin-top: 1.5em; margin-bottom: 0.5em">Abstracts</h1>
+Coming soon!
+
+
+<h1 style="margin-top: 1.5em; margin-bottom: 0.5em">Seminar Information</h1>
+<p>The <a href="http://www.macs.hw.ac.uk/~lc45/Conferences/NBGGT.html">North British Geometric Group Theory Seminar</a> is a collaborative seminar that has been running since 2003.  The seminar involves geometric group theorists from Heriot&ndash;Watt, Glasgow, Newcastle, Durham, York, Leeds, Manchester, Nottingham, St&nbsp;Andrews, and Leicester, and meets three times a year.</p>
+
+<p>We are very grateful for financial support from the London Mathematical Society and the Glasgow Mathematical Journal Learning and Research Support Fund.</p>
+<p>
+<IMG SRC="LMSAlt.jpg" ALT="LMS logo" WIDTH=384 HEIGHT=128>
+
+<IMG SRC="GMJTFlogo.jpg" ALT="GMJTF logo" WIDTH=256 HEIGHT=128>
+</p>
+
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>
