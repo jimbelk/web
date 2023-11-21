@@ -27,60 +27,78 @@
 
 <h1>Talks</h1>
 
-This page is an archive of slides and videos for talks that I have given. See <a href="CVMain.shtml#RecentTalks">here</a> for a list of all recent talks I have given.
+This page is an archive of slides and videos for talks that I have given, as well as some talks by my collaborators. See <a href="CVMain.htm#RecentTalks">here</a> for a list of all recent talks I have given.
+
+
+<img class="flt" src="SquareCantorColored2Bitmap.png"/>
+<h2>Boone&ndash;Higman Embeddings</h2>
+I have given several talks on embeddings into finitely presented simple groups.  The most recent was in the fall of 2023, when I gave a talk at the <a href="https://trr358.math.uni-bielefeld.de/workshops/view/146">GoTh workshop</a> at Otto-von-Guericke-Universität Magdeburg.  Here are the slides:
+<ul class="nobull">
+<li><a href="talks/BooneHigmanMagdeburg.pdf">Slides &mdash; Hyperbolic Groups Satisfy the Boone&ndash;Higman Conjecture, September 2023, Magdeburg (PDF)</a></li>
+</ul>
+I gave a similar talk in the summer of 2023 at the <a href="https://www.icms.org.uk/workshops/2023/algebra-geometry-and-c-algebras-0">Algebra, Geometry, and C*-Algebras</a> workshop at the ICMS, but directed at a C*-algebras audience.  Here are the slides and video for the that talk:
+<ul class="nobull">
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/TopologicalFullGroups.pdf">Slides &mdash; Embeddings into Topological Full Groups, June 2023, ICMS (PDF)</a></li>
+<li><a href="https://www.youtube.com/watch?v=_HBBRNZaCwI">Video &mdash; Embeddings into Topological Full Groups, June 2023, ICMS (YouTube)</a></li>
+</ul>
+Finally, in the fall of 2022 I gave talks at the <a href="https://sites.google.com/view/modern-advances-ggt/homepage">Dame Kathleen Ollerenshaw Workshop (Modern advances in geometric group theory)</a> at the University of Manchester, the Geometry &amp; Topology seminar at the University of Glasgow, the <a href="https://sites.google.com/unimib.it/algebra-in-bicocca-english/algebra-seminar">Al@Bicocca seminar</a> at the University of Milano&ndash;Bicocca, and at the <a href="https://sites.google.com/site/annaerschler/grseminar">ENS Group Theory Seminar</a>.  Here are the slides for these talks:
+<ul class="nobull">
+<li><a href="talks/BooneHigmanParis.pdf">Slides &mdash; Embeddings into Finitely Presented Simple Groups, ENS, December 2022 (PDF)</a></li>
+<li><a href="https://www.youtube.com/watch?v=2p_LAjXJmq0">Video &mdash; Embeddings into Finitely Presented Simple Groups, ENS, December 2022 (YouTube)</a></li>
+<li><a href="talks/BooneHigmanMilan.pdf">Slides &mdash; Embeddings into Finitely Presented Simple Groups, Milan, December 2022 (PDF)</a></li>
+<li><a href="talks/BooneHigmanGlasgow.pdf">Slides &mdash; Embeddings into Finitely Presented Simple Groups, Glasgow, September 2022 (PDF)</a></li>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/BooneHigman.pdf">Slides &mdash; Embeddings into Finitely Presented Simple Groups, Manchester, September 2022 (PDF)</a></li>
+</ul>
+Finally, here is a video of my collaborator <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin Bleak</a> giving a talk on the same research:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=X2HOkHqXl8E">Video &mdash; Collin Bleak &mdash; Embeddings into Finitely Presented Simple Groups, ESI, July 2023 (YouTube)</li>
+</ul>
 
 <img class="flt" src="PPLGraph.png"/>
 <h2>Finite Germ Extensions</h2>
 In the spring of 2023 I gave a talk at the <a href="https://www.lancaster.ac.uk/maths/fcg/april-2023/">Groups and Topology</a> workshop at the University of Lancaster, and in the summer of 2023 I gave a similar talk at the <a href="https://sites.google.com/unimib.it/algebra-in-bicocca-english">Al@Bicocca</a> Flash Workshop at the University of Milan&ndash;Bicocca.  Here are the slides for the talk:
 <ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/FiniteGermExtensionsLancaster.pdf">Slides &mdash; Finite Germ Extensions, Lancaster (PDF)</a></li>
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/FiniteGermExtensionsItaly.pdf">Slides &mdash; Finite Germ Extensions, Bicocca (PDF)</a></li>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/FiniteGermExtensionsItaly.pdf">Slides &mdash; Finite Germ Extensions, Milan, July 2023 (PDF)</a></li>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/FiniteGermExtensionsLancaster.pdf">Slides &mdash; Finite Germ Extensions, Lancaster, April 2023 (PDF)</a></li>
 </ul>
 
-
-<h2>Embeddings into Topological Full Groups</h2>
-In the summer of 2023 I gave a talk at the <a href="https://www.icms.org.uk/workshops/2023/algebra-geometry-and-c-algebras-0">Algebra, Geometry, and C*-Algebras</a> workshop at the ICMS.  Here are the slides for the talk:
+<h2>Maximal Subgroups of <i>V</i></h2>
+I have been working on classifying maximal subgroups of Thompson's group <i>V</i> with <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin Bleak</a>, <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/mq3/">Martyn Quick</a>, and <a href="https://sites.google.com/view/skippermath">Rachel Skipper</a>.  Here are videos of two talks that Rachel Skipper has given on this research:
 <ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/TopologicalFullGroups.pdf">Slides &mdash; Embeddings into Topological Full Groups (PDF)</a></li>
+<li><a href="https://www.youtube.com/watch?v=XpKPV6__YFs">Video &mdash; Rachel Skipper &mdash; Maximal Subgroups of Thompson's Group <i>V</i>, ENS, October 2022 (YouTube)</a></li>
+<li><a href="https://www.youtube.com/watch?v=JO9nM1ol2Y0">Video &mdash; Rachel Skipper &mdash; Maximal Subgroups of Thompson's Group <i>V</i>, Newcastle, October 2020 (YouTube)</a></li>
 </ul>
 
-
-<img class="flt" src="SquareCantorColored2Bitmap.png"/>
-<h2>Embeddings into Finitely Presented Simple Groups</h2>
-In the fall of 2022 I gave a talk at the <a href="https://sites.google.com/view/modern-advances-ggt/homepage">Dame Kathleen Ollerenshaw Workshop (Modern advances in geometric group theory)</a> at the University of Manchester.  It was an introduction to the Boone&ndash;Higman conjecture and a survey of related results, including my work with several collaborators.  Here are the slides for the talk:
-<ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/BooneHigman.pdf">Slides &mdash; Embeddings into Finitely Presented Simple Groups (PDF)</a></li>
-</ul>
 
 <h2>Quasisymmetries of Finitely Ramified Fractals</h2>
-In the fall of 2021 I gave a talk in the Cornell Topology &amp; Geometric Group Theory seminar on my work with Bradley Forrest on quasisymmetries of finitely ramified fractals.  Here are the slides for the talk:
+I've been working on quasisymmetries of fractals with <a href="https://stockton.edu/sciences-math/faculty-staff/faculty-forrest.html">Bradley Forrest</a>.  I've given talks on this research on several occasions, including in the University of Glasgow Analysis Seminar, the <a href="https://pi.math.cornell.edu/m/event-list-p/geomgroup">Cornell Topology &amp; Geometric Group Theory seminar</a>, and the <a href="https://sta-analysis.github.io/seminars/">St Andrews Analysis Seminar</a>. Here are the slides and video:
+<img class="flt" src="JuliaSetCubic.png"/>
 <ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/QuasisymmetriesJuliaSetsTopology.pdf">Slides &mdash; Quasisymmetries of Finitely Ramified Fractals (PDF)</a></li>
-</ul>
-Here is a slightly older version of the same talk that I gave for the St Andrews Analysis Seminar.  This version concentrates less on geometric group theory and more on fractal geometry:
-<ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/QuasisymmetriesJuliaSetsAnalysis.pdf">Slides &mdash; Quasisymmetries of Finitely Ramified Julia Sets (PDF)</a></li>
-</ul>
-<img class="flt" src="JuliaSetCubic.png"/>The talk at St Andrews was recorded on Zoom:
-<ul class="nobull">
-<li><a href="https://www.youtube.com/watch?v=g0jRjOacqZo">Video &mdash; Quasisymmetries of Finitely Ramified Julia Sets &mdash; St Andrews Analysis Seminar, 9&nbsp;March&nbsp;2021 (YouTube)</a></li>
+<li><a href="talks/QuasisymmetryGroupsFractalsGlasgow.pdf">Slides &mdash; Quasisymmetries of Finitely Ramified Fractals, Glasgow, May 2023 (PDF)</a>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/QuasisymmetriesJuliaSetsTopology.pdf">Slides &mdash; Quasisymmetries of Finitely Ramified Fractals, Cornell, September 2021 (PDF)</a></li>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/QuasisymmetriesJuliaSetsAnalysis.pdf">Slides &mdash; Quasisymmetries of Finitely Ramified Julia Sets, St Andrews, March 2021 (PDF)</a></li>
+<li><a href="https://www.youtube.com/watch?v=g0jRjOacqZo">Video &mdash; Quasisymmetries of Finitely Ramified Julia Sets, St Andrews, March 2021 (YouTube)</a></li>
 </ul>
 
 
 <h2>Twisted Brin&ndash;Thompson Groups</h2>
-I have given several talks on my recent work with Matt Zaremsky on quasi-isometric embeddings of finitely generated groups into simple groups (<a href="https://arxiv.org/abs/2001.04579">arXiv</a>).  The most recent was at the University of Milano-Bicocca (via Zoom), but I also gave talks on the same subject here at St&nbsp;Andrews and at Heriot-Watt University.  Here is the most recent version of the slides for this talk:
+I have given several talks on my work with <a href="https://www.albany.edu/~mz498674/">Matt Zaremsky</a> on quasi-isometric embeddings of finitely generated groups into simple groups (<a href="https://arxiv.org/abs/2001.04579">arXiv</a>).  The most recent was at the University of Milano-Bicocca (via Zoom), but I also gave talks on the same subject here at St&nbsp;Andrews and at Heriot-Watt University.  Here is the most recent version of the slides for this talk:
 <ul class="nobull">
 <li><a href="https://e.math.cornell.edu/people/belk/talkslides/TwistedBrinThompson.pdf">Slides &mdash; Twisted Brin&ndash;Thompson Groups (PDF)</a></li>
 </ul>
 The version of this talk at the University of Milano-Bicacca was recorded on Zoom:
 <ul class="nobull">
-<li><a href="https://e.math.cornell.edu/people/belk/talkslides/BicoccaSeminarTalk.mp4">Video &mdash; Twisted Brin&ndash;Thompson Groups &mdash; University of Milano-Bicocca Algebra Seminar, 26&nbsp;June&nbsp;2020 (MP4, 177&nbsp;MB)</a></li>
+<li><a href="https://e.math.cornell.edu/people/belk/talkslides/BicoccaSeminarTalk.mp4">Video &mdash; Twisted Brin&ndash;Thompson Groups, Milan, June 2020 (MP4, 177&nbsp;MB)</a></li>
 </ul>
 
 <h2>Finitely Presented Groups that Contain Q</h2>
 I have given several talks on my recent work with James Hyde and Francesco Matucci on embeddings of Q into finitely presented groups (<a href="https://arxiv.org/abs/2005.02036">arXiv</a>).  The most recent was at Ohio State University (via Zoom), but I also gave talkes at <a href="https://www.ucl.ac.uk/~ucahllo/ggse/"><i>Groups and Geometry in the South East</i></a> at the University of Southampton, and at the <a href="http://www-groups.mcs.st-and.ac.uk/~colva/gga_may_2019.html"><i>Workshop on Groups, Generalisations and Applications</i></a> here at St&nbsp;Andrews.  Here is the most recent version of the slides for this talk:
 <ul class="nobull">
 <li><a href="https://e.math.cornell.edu/people/belk/talkslides/FinitelyPresentedRational.pdf">Slides &mdash; Finitely Presented Groups that Contain&nbsp;Q&nbsp;(PDF)</a></li>
+</ul>
+Here is a video of my collaborator James Hyde giving a talk on this subject:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=642leKsBQP4">Video &mdash; James Hyde &mdash; Embedding Q into a Finitely Presented Group (YouTube)</a>
 </ul>
 
 <h2>Tree Lifting</h2>

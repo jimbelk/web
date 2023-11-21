@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+
+
+<HEAD>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="mainpages.css">
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<TITLE>Jim Belk - Teaching</TITLE>
+</HEAD>
+
+
+<BODY link=darkblue vlink=darkblue>
+
+<div class="header">
+<span class="coursetitle">Jim Belk</span>
+<span class="collegename">University <i>of</i> Glasgow</span>
+</div>
+
+<div class="wholedoc">
+
+<div style="font-size:110%; margin-top: -0.4em; margin-bottom: 1.6em; line-height: 200%"><a href="index.htm">Home</a> | <a href="CVMain.htm">CV</a> | <a href="research.htm">Research</a> | <span style="color: #666666">Teaching</span> | <a href="talks.htm">Talks</a> | <a href="writing.htm">Writing</a> </div>
+
+
+<img class="a" style="max-width:35%" src="KleinBottle.png"/>
+<h1>Teaching</h1>
+
+<p>This is my second year at the University of Glasgow, and I am currently teaching <a href="https://www.gla.ac.uk/coursecatalogue/course/?code=MATHS4112">4H:&nbsp;Algebraic and Geometric Topology</a> (Maths&nbsp;4112).
+
+<p>Before coming to the University of Glasgow, I had taught courses at Binghamton University, Cornell University, Texas&nbsp;A&amp;M&nbsp;University, Bard College, and the University of St&nbsp;Andrews.  This page describes some of my teaching experience and has links to the teaching materials for some of the courses I have taught.
+</p>
+
+<h2>Undergraduate Projects</h2>
+Every undergraduate mathematics major at Bard College is required to do a year-long original research project during their senior year.  While at Bard I supervised 24 such projects, covering a wide variety of topics.  See here for a list of these projects:
+<ul>
+<li><a href="CVMain.htm#SeniorProjects" target="_blank">Bard Senior Projects</a></li>
+</ul>
+
+<h2>Dynamical Systems</h2>
+I designed an undergraduate dynamical systems course at Bard College which I taught on five occasions.  The course focused on chaotic dynamical systems and fractal geometry, and was suitable for students who had taken a course in linear algebra with ordinary differential equations.  It had a heavy emphasis on the computational and experimental aspects of the subject, and students spent much of their time learning to use <i>Mathematica</i> to explore the behavior of dynamical systems and visualize fractal sets. The following web page has further information about this course:
+<ul>
+<li><a href="dynamicalsystems/index.htm" target="_blank">Dynamical Systems</a></li>
+</ul>
+
+<h2>Measure Theory</h2>
+I designed a measure theory course at Bard College for advanced undergraduates, which I taught twice as a regular class and four times as an independent study for one to three students.  The course covered advanced analysis including measure theory and Lebesgue integration, with an introduction to Banach spaces and Hilbert spaces and applications to Fourier series, convolutions, and probability theory.  The following web page has further information about this course:
+<ul>
+<li><a href="measuretheory/index.htm" target="_blank">Measure Theory</a></li>
+</ul>
+
+
+<h2>Differential Geometry</h2>
+<img class="a" style="max-width: 40%" src="HelixDevelopable.png">
+I developed an undergraduate differential geometry course at Bard College which I taught on two occasions.  The course required only multivariable calculus as a prerequisite, and most of the students who took the course were junior or senior math or physics majors.  The course content focused heavily on vector geometry and parametrizations while also covering classical differential geometry of curves and surfaces. The following web page has further information about this course:
+<ul>
+<li><a href="differentialgeometry/index.htm" target="_blank">Differential Geometry</a></li>
+</ul>
+
+<h2>Number Theory</h2>
+I designed and taught an upper-level number theory course at Bard College in the spring of 2016. Students in the course were required to have programming experience and implemented cryptographic and number-theoretic algorithms such as RSA encryption, Diffie-Hellman key exchange, and the Fermat and Lucas&ndash;Lehmer primality tests.  The course also had a strong theoretical component, and we covered elementary number theory, quadratic reciprocity, field extensions, the classification of finite fields, and the proof of quadratic reciprocity using Gauss sums.  The following web page has further information about this course
+<ul>
+<li><a href="numbertheory/index.htm" target="_blank">Number Theory</a></li>
+</ul>
+
+<h2>Mathematical Modeling</h2>
+I designed and taught a mathematical modeling course at Bard College in the fall of 2016.  The course focused on modeling with ordinary differential equations and difference equations, and we explored applications to growth of organisms and allometric laws, population dynamics, HIV&nbsp;modeling, and climate modeling.  The following web page has further information about this course
+<ul>
+<li><a href="modeling/index.htm" target="_blank">Mathematical Modeling</a></li>
+</ul>
+
+<img class="a" style="width:350px" src="Plot3D.jpg">
+<h2>Calculus &amp; Linear Algebra</h2>
+I taught my first calculus class at Binghamton University in the spring of 1999, and I have since taught calculus and linear algebra courses at Cornell University, Texas A&M University, and Bard College.  Here is some information about my Calculus&nbsp;I class:
+<ul>
+<li><a href="calculus/index.htm" target="_blank">Calculus I</a></li>
+</ul>
+
+
+<h2>Secret Codes</h2>
+I designed and taught a cryptology course for liberal arts students in the spring of 2015.  Students in the course make heavy use of computers, specifically Microsoft Excel, to decode encrypted messages. 
+
+<h2>Advanced Calculus</h2>
+I designed and taught an advanced calculus course at Bard College in the fall of 2016.  The course focused on the derivative as a linear transformation, parameterization of manifolds, and integration on manifolds. 
+
+
+<h2>Topology</h2>
+I taught a 300-level topology course at Bard College on two occasions.  This course served as an introduction to both point-set and algebraic topology, and most of the students in the class were junior or senior math majors.  
+
+<h2>First-Year Seminar</h2>
+<img class="a" src="MalcolmX.jpg"/>
+I taught the second semester of the first-year seminar at Bard College in the spring of 2017.  This is the &ldquo;great books&rdquo; course that Bard requires of all students, and I led student discussions and graded student essays on the following works:
+<ul>
+<li>&ldquo;Self-Reliance&rdquo; by Ralph Waldo Emerson</li>
+<li><i>Nicomachean Ethics</i> by Aristotle</li>
+<li><i>On the Genealogy of Morals</i> by Friedrich Nietzsche</li>
+<li><i>Confessions</i> by Augustine</li>
+<li><i>The Autobiography of Malcolm X</i></li>
+<li><i>Prometheus Bound</i> by Aeschylus</li>
+<li><i>Frankenstein, or The Modern Prometheus</i> by Mary Shelley</li>
+<li>Selected works of Sor Juana Inés de la Cruz</li>
+<li><i>Portrait of the Artist as a Young Man</i> by James Joyce</li>
+<li>Selections from <i>History's Greatest Speeches</i></li>
+</ul>
+
+
+<img class="a" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik's_cube.svg/280px-Rubik's_cube.svg.png"/>
+<h2>Abstract Algebra</h2>
+I taught a one-semester Abstract Algebra course a Bard College on three occasions.  I used Gallian's book for this course which I supplemented with additional material on automorphisms of graphs, matrix representations of groups, etc.
+
+<h2>Real Analysis</h2>
+I taught a one-semester Real Analysis course at Bard College on two occasions.
+
+<h2>Physics</h2>
+I twice taught the second-semester introductory physics course at Bard College, which included running weekly laboratory demonstrations and experiments for students.  The course covered electricity, magnetism, and optics.
+
+<h2>Proofs & Fundamentals</h2>
+I taught Proofs & Fundamentals at Bard College in the fall of 2010.  This course is an introduction to formal proofs, logic, and set theory, and is usually taken by sophomore math majors.  
+
+<h2>Problem-Solving Seminar</h2>
+I supervised the 2-credit mathematics problem-solving seminar at Bard College in the fall of 2009.  
+
+</div>
+
+<div class="footer"></div>
+
+</BODY>
+</HTML>

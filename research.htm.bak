@@ -101,7 +101,7 @@ My research is a mix of group theory, dynamical systems, and topology.</p>
 <td style="width: 30%"><img style="max-width: 100%" src="Torus.png"></td>
 <td style="text-align: left"><p><a class="red", href="https://arxiv.org/abs/2203.05930">A short proof of Rubin's theorem</a>, with&nbsp;<a href="https://le27.github.io/Luke-Elliott/">Luke&nbsp;Elliott</a> and <a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
 Accepted to <i>Isr. J. Math.</i></p>
-<p>We give a short proof of a theorem due to Matatyahu Rubin that a locally dense action of a group <i>G</i> on a locally compact Hausdorff space without isolated points is unique up to conjugation by <i>G</i>-equivariant homeomorphisms.  This theorem is used in geometric group theory to show that isomorphisms between certain pairs of groups must be induced by homeomorphisms between spaces on which the groups act.  Our proof uses ultrafilters on a certain poset to reconstruct the space from the group.</p>
+<p>We give a short proof of a theorem due to Matatyahu Rubin, which states that a locally dense action of a group <i>G</i> on a locally compact Hausdorff space without isolated points is unique up to conjugation by <i>G</i>-equivariant homeomorphisms.  This theorem is used in geometric group theory to show that isomorphisms between certain pairs of groups must be induced by homeomorphisms between spaces on which the groups act.  Our proof uses ultrafilters on a certain poset to reconstruct the space from the group.</p>
 </td>
 </tr>
 </table>
@@ -113,7 +113,7 @@ Accepted to <i>Isr. J. Math.</i></p>
 <tr>
 <td style="width: 25%"><img style="max-width: 100%" src="ConjugatorLengthPicture2.png"></td>
 <td style="text-align: left"><p><a class="red", href="https://arxiv.org/abs/2101.10316">Conjugator length in Thompson's groups</a>, with&nbsp;<a href="https://sites.google.com/site/francescomatucci/">Francesco&nbsp;Matucci</a><br>
-Accepted to <i>Bull. Lond. Math. Soc.</i></p>
+<i>Bull. Lond. Math. Soc.</i> 55.2 (2023): 793&ndash;810</p>
 <p>We prove Thompson's group <i>F</i> has quadratic conjugator length function. That is, for any two conjugate elements of <i>F</i> of length <i>n</i> or less, there exists an element of <i>F</i> of quadratic length in <i>n</i> that conjugates one to the other.
 Moreover, there exist conjugate pairs of elements of <i>F</i> of length at most <i>n</i> such that the shortest conjugator between them has quadratric length in&nbsp;<i>n</i>. This latter statement holds for <i>T</i> and <i>V</i> as well.</p>
 </td>
@@ -129,7 +129,7 @@ Moreover, there exist conjugate pairs of elements of <i>F</i> of length at most 
 <td style="width: 40%"><img style="max-width: 100%" src="TreeLifting.png"></td>
 <td style="text-align: left"><p><a class="red", href="https://arxiv.org/abs/1906.07680">Recognizing topological polynomials by lifting trees</a><br>
 with <a href="https://justinlanier.org/">Justin Lanier</a>, <a href="https://dmargalit7.math.gatech.edu/index.shtml">Dan Margalit</a>, and&nbsp;<a href="https://sites.google.com/site/rebeccawinarski/">Rebecca&nbsp;R.&nbsp;Winarski</a><br>
-Accepted to <i>Duke Math. J.</i></p>
+<i>Duke Math. J.</i> 171.17 (2022): 3401&ndash;3480</p>
 <p>This is my main complex dynamics paper.  We describe a tree-lifting algorithm that recognizes the Thurston class of a given topological polynomial.  The algorithm produces either the Hubbard tree for a polynomial in the same Thurston class, or the canonical obstruction if the given topological polynomial is obstructed.  Our proof solves Pilgrim's <a href="https://arxiv.org/abs/2102.12402">finite global attractors problem</a> for polynomials, and we demonstrate our methods by solving some generalizations of Hubbard's twisted rabbit problem.  Further applications of our methods have been given by <a href="https://arxiv.org/abs/2209.06154">Lanier and Winarski</a> and by <a href=https://arxiv.org/abs/2209.06099>Mukundan and Winarski</a>, and Jiang has <a href="https://doi.org/10.1016/j.topol.2022.108109">examined the geometry</a> of the complex of trees that we introduced.</p>
 </td>
 </tr>
