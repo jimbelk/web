@@ -114,6 +114,7 @@ ol.bib li { margin-left: -10px; counter-increment: entry; }
 <!--<li><a href="#ConferencesAttended">Conferences Attended</a></li>
 <li><a href="#ConferencesOrganized">Conferences Organized</a></li>-->
 <li><a href="#CoursesAndTutorials">Courses and Tutorials</a></li>
+<li><a href="#PhDStudents">PhD Students</a></li>
 <li><a href="#SeniorProjects">Senior Projects</a></li>
 <li><a href="#Service">Service and Professional Work</a></li>
 </ol>
@@ -666,6 +667,21 @@ See my <a href="teaching.htm">teaching page</a> for course descriptions.
 <td>Complex Analysis (S09)</td>
 </tr>-->
 </table>
+
+
+<div class="clear"></div>
+<h2 id="PhDStudents">PHD STUDENTS</h2>
+
+<p>I have co-supervised one PhD student at the University of Milano&ndash;Bicocca.</p>
+
+<dl>
+
+<dt>2023</dt>
+<dd>&ast;<a href="https://sites.google.com/view/perego-math">Davide Perego</a>, &ldquo;Rationality of Boundaries&rdquo;
+<a href="https://boa.unimib.it/retrieve/121f55b5-19f5-42e2-9cf7-d09fb6a6b10b/phd_unimib_861022.pdf" target="_blank"><img src="pdficon_small.png" style="vertical-align: -2px"/></a> (with <a href="https://sites.google.com/site/francescomatucci/">Francesco Matucci</a>)</dd>
+
+</dl>
+
 
 <div class="clear"></div>
 <h2 id="SeniorProjects">SENIOR PROJECTS</h2>
