@@ -31,8 +31,11 @@ This page is an archive of slides and videos for talks that I have given, as wel
 
 
 <img class="flt" src="SquareCantorColored2Bitmap.png"/>
-<h2>Boone&ndash;Higman Embeddings</h2>
-I have been working with <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin Bleak</a>, <a href="https://sites.google.com/site/francescomatucci/">Francesco Matucci</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of groups into finitely presented simple groups.  My most recent talk on this subect was in the fall of 2023, at the <a href="https://trr358.math.uni-bielefeld.de/workshops/view/146">GoTh workshop</a> at Otto-von-Guericke-Universität Magdeburg.  Here are the slides:
+<h2>Boone&ndash;Higman Embeddings of Aut(<i>F<sub>n</sub></i>)</h2>
+I have a recent paper with <a href="https://www.fffmaths.com/">Francesco Fournier-Facio</a>, <a href="https://www2.math.binghamton.edu/p/people/jhyde1/start">James Hyde</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of Aut(<i>F<sub>n</sub></i>) and certain mapping class grouhyperbolic groups into finitely presented simple groups.  My most recent talk on this subect was in the fall of 2023, at the <a 
+
+<h2>Boone&ndash;Higman Embeddings of Hyperbolic Groups</h2>
+I have been working with <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin Bleak</a>, <a href="https://sites.google.com/site/francescomatucci/">Francesco Matucci</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of hyperbolic groups into finitely presented simple groups.  My most recent talk on this subect was in the fall of 2023, at the <a href="https://trr358.math.uni-bielefeld.de/workshops/view/146">GoTh workshop</a> at Otto-von-Guericke-Universität Magdeburg.  Here are the slides:
 <ul class="nobull">
 <li><a href="talks/BooneHigmanMagdeburg.pdf">Slides &mdash; Hyperbolic Groups Satisfy the Boone&ndash;Higman Conjecture, September 2023, Magdeburg (PDF)</a></li>
 </ul>
