@@ -32,7 +32,10 @@ This page is an archive of slides and videos for talks that I have given, as wel
 
 <img class="flt" src="SquareCantorColored2Bitmap.png"/>
 <h2>Boone&ndash;Higman Embeddings of Aut(<i>F<sub>n</sub></i>)</h2>
-I have a recent paper with <a href="https://www.fffmaths.com/">Francesco Fournier-Facio</a>, <a href="https://www2.math.binghamton.edu/p/people/jhyde1/start">James Hyde</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of Aut(<i>F<sub>n</sub></i>) and certain mapping class grouhyperbolic groups into finitely presented simple groups.  My most recent talk on this subect was in the fall of 2023, at the <a 
+I have a recent paper with <a href="https://www.fffmaths.com/">Francesco Fournier-Facio</a>, <a href="https://www2.math.binghamton.edu/p/people/jhyde1/start">James Hyde</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of Aut(<i>F<sub>n</sub></i>) and certain mapping class groups into finitely presented simple groups.  Here are the slides for the talk I am giving at the <a href="https://loeksnokes.github.io/web/nbggt-05-25/">North British Geometric Group Theory Seminar</a> at St Andrews in May 2025:
+<ul class="nobull">
+<li><a href="talks/BooneHigmanStAndrews.pdf">Slides &mdash; Boone&ndash;Higman Embeddings of Aut(<i>F<sub>n</sub></i>) and Mapping Class Groups of Punctured Surfaces, May 2025, St&nbsp;Andrews (PDF)</a></li>
+</ul>
 
 <h2>Boone&ndash;Higman Embeddings of Hyperbolic Groups</h2>
 I have been working with <a href="https://www.st-andrews.ac.uk/mathematics-statistics/people/cb211/">Collin Bleak</a>, <a href="https://sites.google.com/site/francescomatucci/">Francesco Matucci</a>, and <a href="https://www.albany.edu/~mz498674/">Matthew Zaremsky</a> on embeddings of hyperbolic groups into finitely presented simple groups.  My most recent talk on this subect was in the fall of 2023, at the <a href="https://trr358.math.uni-bielefeld.de/workshops/view/146">GoTh workshop</a> at Otto-von-Guericke-Universität Magdeburg.  Here are the slides:
