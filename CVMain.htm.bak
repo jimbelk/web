@@ -110,7 +110,7 @@ ol.bib li { margin-left: -10px; counter-increment: entry; }
 <li><a href="#Education">Education</a></li>
 <li><a href="#ResearchInterests">Research Interests</a></li>
 <li><a href="#PublicationsAndPreprints">Publications and Preprints</a></li>
-<li><a href="#RecentTalks">Recent Talks</a></li>
+<li><a href="#ResearchTalks">Research Talks</a></li>
 <!--<li><a href="#ConferencesAttended">Conferences Attended</a></li>
 <li><a href="#ConferencesOrganized">Conferences Organized</a></li>-->
 <li><a href="#CoursesAndTutorials">Courses and Tutorials</a></li>
@@ -359,15 +359,27 @@ Ph.D.&nbsp;thesis, Cornell University, supervised by&nbsp;<a href="https://www.m
 
 
 <div class="clear"></div>
-<h2 id="RecentTalks">RECENT TALKS</h2>
+<h2 id="ResearchTalks">RESEARCH TALKS</h2>
 
 <p class="left">Slides for recent talks can be found on my <a href="talks.htm">talks page</a>.</p>
 
 <div class="item">
 <p class="leftindent"><b>&ldquo;Boone&ndash;Higman Embeddings of Aut(<i>F<sub>n</sub></i>) and Mapping Class Groups of Punctured Surfaces&rdquo;</b></p>
 <div>
+<p class="rightindent"><br>September 2025</p>
+<p class="indent"><i>Al@Bicocca Flash Workshop</i> (via Zoom),<br> University of Milan&ndash;Bicocca</p>
+</div>
+<div>
 <p class="rightindent">May 2025</p>
 <p class="indent"><i>North British Geometric Group Theory Seminar</i>, University of St Andrews</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Thurston's Theorem, Twisted Rabbits, and Trees&rdquo;</b></p>
+<div>
+<p class="rightindent"><br>July 2025</p>
+<p class="indent"><i>2025 Early Career Complex Dynamics Workshop</i>, <br>Indiana University Bloomington</p>
 </div>
 </div>
 
@@ -378,8 +390,8 @@ Ph.D.&nbsp;thesis, Cornell University, supervised by&nbsp;<a href="https://www.m
 <p class="indent">Analysis Seminar, University of Copenhagen</p>
 </div>
 <div>
-<p class="rightindent">June 2023</p>
-<p class="indent"><i>Algebra, Geometry and C*-algebras</i>, International Centre for Mathematical Sciences, Edinburgh</p>
+<p class="rightindent"><br>June 2023</p>
+<p class="indent"><i>Algebra, Geometry and C*-algebras</i>, <br>International Centre for Mathematical Sciences, Edinburgh</p>
 </div>
 </div>
 
@@ -586,6 +598,166 @@ Ph.D.&nbsp;thesis, Cornell University, supervised by&nbsp;<a href="https://www.m
 <div>
 <p class="rightindent">April 2015</p>
 <p class="indent">Geometry and Topology Seminar, Binghamton University</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Dynamics and Decidability in Brin’s Group 2<i>V</i>&rdquo;</b></p>
+<div>
+<p class="rightindent"><br>May 2014</p>
+<p class="indent"><i>Workshop on the Extended Family of R. Thompson’s Groups</i>, <br> University of St Andrews</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Thompson-Like Groups for Self-Similar Structures&rdquo;</b></p>
+<div>
+<p class="rightindent"><br>May 2014</p>
+<p class="indent"><i>Workshop on the Extended Family of R. Thompson’s Groups</i>, <br>University of St Andrews</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Turing Machines, Automata, and the Brin&ndash;Thompson Group 2<i>V</i>&rdquo;</b></p>
+<div>
+<p class="rightindent">November 2013</p>
+<p class="indent">Algebra/Topology Seminar, SUNY Albany</p>
+</div>
+<div>
+<p class="rightindent">October 2013</p>
+<p class="indent">Oberseminar Gruppen und Geometrie, Bielefeld University</p>
+</div>
+<div>
+<p class="rightindent"><br>October 2013</p>
+<p class="indent">Groupes de Travail de L'équipe Topologie Dynamique, <br>Paris&ndash;Sud University</p>
+</div>
+<div>
+<p class="rightindent">October 2013</p>
+<p class="indent">Pure Mathematics Colloquium, University of St Andrews</p>
+</div>
+<div>
+<p class="rightindent">September 2013</p>
+<p class="indent">Geometry and Topology Seminar, Binghamton University</p>
+</div>
+</div>
+
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Thompson-Like Groups Acting on Julia Sets&rdquo;</b></p>
+<div>
+<p class="rightindent">October 2013</p>
+<p class="indent">Analysis Seminar, University of St Andrews</p>
+</div>
+<div>
+<p class="rightindent">August 2013</p>
+<p class="indent"><i>Groups St Andrews 2013</i>, University of St Andrews</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Symmetries of Julia Sets&rdquo;</b></p>
+<div>
+<p class="rightindent">April 2013</p>
+<p class="indent">Mathematics Seminar, Hamilton College</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;A Thompson Group for the Basilica&rdquo;</b></p>
+<div>
+<p class="rightindent"><br>April 2013</p>
+<p class="indent"><i>AMS Special Session on Arithmetic Dynamics and Galois Theory</i>,<br>
+		2013 Spring Eastern Sectional Meeting at Boston College
+</p>
+</div>
+<div>
+<p class="rightindent">April 2012</p>
+<p class="indent">Algebra Seminar, University of Virginia
+</p>
+</div>
+<div>
+<p class="rightindent">April 2012</p>
+<p class="indent">Algebra and Topology Seminar, Binghamton University
+</p>
+</div>
+</div>
+
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Conjugacy and Dynamics in Thompson's Groups&rdquo;</b></p>
+<div>
+<p class="rightindent">October 2008</p>
+<p class="indent">Topology/Geometry Seminar, Rutgers University</p>
+</div>
+<div>
+<p class="rightindent">April 2007</p>
+<p class="indent">Algebra Seminar, University of Virginia</p>
+</div>
+<div>
+<p class="rightindent">April 2007</p>
+<p class="indent">Topology Seminar, Cornell University</p>
+</div>
+<div>
+<p class="rightindent">November 2006</p>
+<p class="indent">Groups and Dynamics Seminar, Texas A&amp;M University</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Braids Without Twists&rdquo;</b></p>
+<div>
+<p class="rightindent"><br>January 2008</p>
+<p class="indent"><i>AMS Session on Algebra and Group Theory</i>, <br>2008 Joint Mathematics Meetings in San Diego, California</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Conjugacy in Thompson’s Group <i>F</i>&rdquo;</b></p>
+<div>
+<p class="rightindent">November 2006</p>
+<p class="indent">Mathematics Postdoc Colloquium, Texas A&amp;M University</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Strand Diagrams, Configuration Spaces, and Associahedra&rdquo;</b></p>
+<div>
+<p class="rightindent">March 2006</p>
+<p class="indent">Groups and Dynamics Seminar, Texas A&amp;M University</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Forest Diagrams for Elements of Thompson's Group <i>F</i>&rdquo;</b></p>
+<div>
+<p class="rightindent">September 2005</p>
+<p class="indent">Groups and Dynamics Seminar, Texas A&amp;M University</p>
+</div>
+<div>
+<p class="rightindent">October 2004</p>
+<p class="indent">Topology Seminar, Binghamton University</p>
+</div>
+<div>
+<p class="rightindent"><br>October 2003</p>
+<p class="indent"><i>AMS Special Session on Geometric Group Theory</i>,<br>
+		2003 Fall Eastern Sectional Meeting at Binghamton University</p>
+</div>
+<div>
+<p class="rightindent">October 2003</p>
+<p class="indent">Topology Seminar, Cornell University</p>
+</div>
+<div>
+<p class="rightindent">June 2003</p>
+<p class="indent"><i>International Conference on Group
+Theory</i>, Gaeta, Italy</p>
+</div>
+</div>
+
+<div class="item">
+<p class="leftindent"><b>&ldquo;Amenability and the Banach&ndash;Tarski Paradox&rdquo;</b></p>
+<div>
+<p class="rightindent">February 2002</p>
+<p class="indent">Olivetti Club, Cornell University</p>
 </div>
 </div>
 
